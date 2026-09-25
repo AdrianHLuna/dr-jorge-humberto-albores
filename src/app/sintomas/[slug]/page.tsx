@@ -17,7 +17,6 @@ import {
 } from "lucide-react";
 import { symptoms, getSymptomBySlug, getRelatedDiseasesForSymptom, doctor } from "@/data";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { CardImageHeader } from "@/components/CardImageHeader";
 import { FAQStructuredData } from "@/components/StructuredData";
 
 interface PageProps {
@@ -108,14 +107,29 @@ export default async function SintomaDetailPage({ params }: PageProps) {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
             {/* Columna Principal (8 columnas) */}
             <div className="lg:col-span-8 space-y-10">
-              {/* Imagen / Visual de Cabecera */}
-              <div className="rounded-3xl overflow-hidden shadow-sm border border-[#EFE8EC]">
-                <CardImageHeader
-                  src={symptom.image}
-                  alt={symptom.name}
-                  category={symptom.category}
-                  aspectRatio="wide"
-                />
+              {/* Banner de Orientación Médica Preventiva */}
+              <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-[#FAF4F7] via-[#FDFBFC] to-[#F7E8E8]/50 border border-[#EFE8EC] shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="space-y-2 max-w-2xl">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-white text-[#653A57] border border-[#E8B7B7]/40 shadow-xs">
+                    <Activity className="w-3.5 h-3.5 text-[#653A57]" />
+                    <span>Guía de Autoevaluación & Valoración Clínica</span>
+                  </div>
+                  <h3 className="text-xl sm:text-2xl font-bold text-[#2B1D26] font-heading">
+                    Orientación Médica Especializada en Tuxtla Gutiérrez
+                  </h3>
+                  <p className="text-xs sm:text-sm text-[#616060] leading-relaxed">
+                    Esta guía le permite comprender la prioridad de sus síntomas. Ante cualquier señal de duda o molestia, la evaluación con el Dr. Jorge Humberto Albores Mejía brinda diagnóstico de certeza y tranquilidad.
+                  </p>
+                </div>
+                <a
+                  href={`https://wa.me/${doctor.whatsapp.replace("+", "")}?text=Hola%20Dr.%20Jorge%20Albores,%20deseo%20consultar%20sobre:%20${encodeURIComponent(symptom.name)}.`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-[#653A57] hover:bg-[#4C2C41] text-white font-semibold text-xs sm:text-sm shadow-md transition-all shrink-0"
+                >
+                  <MessageCircle className="w-4 h-4 text-[#E8B7B7]" />
+                  <span>Consultar este Síntoma</span>
+                </a>
               </div>
 
               {/* Señales de Alarma Críticas */}

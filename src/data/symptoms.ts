@@ -32,7 +32,6 @@ export const symptoms: Symptom[] = [
       "fibroadenoma-mamario",
       "quistes-mamarios"
     ],
-    "image": "/images/sintomas/bolita-nodulo-mama.webp",
     "seo": {
       "title": "Bolita en el Seno o Nódulo Mamario en Tuxtla | Dr. Jorge Albores",
       "description": "Evaluación especializada de masas y bolitas en la mama por mastólogo de FUCAM en Tuxtla Gutiérrez, Chiapas.",
@@ -82,7 +81,6 @@ export const symptoms: Symptom[] = [
       "fibroadenoma-mamario",
       "quistes-mamarios"
     ],
-    "image": "/images/sintomas/dolor-mamario-mastalgia.webp",
     "seo": {
       "title": "Dolor en los Senos (Mastalgia) en Tuxtla | Dr. Jorge Albores",
       "description": "Diagnóstico y alivio del dolor mamario cíclico y mastopatía fibroquística en Tuxtla Gutiérrez con el Dr. Jorge Albores.",
@@ -128,7 +126,6 @@ export const symptoms: Symptom[] = [
     "relatedConditions": [
       "cancer-de-mama"
     ],
-    "image": "/images/sintomas/secrecion-pezon.webp",
     "seo": {
       "title": "Secreción por el Pezón en Tuxtla Gutiérrez | Dr. Jorge Albores",
       "description": "Atención especializada de sangrado o líquido por el pezón por cirujano oncólogo de mama en Tuxtla Gutiérrez.",
@@ -172,7 +169,6 @@ export const symptoms: Symptom[] = [
     "relatedConditions": [
       "cancer-de-mama"
     ],
-    "image": "/images/sintomas/retraccion-pezon.webp",
     "seo": {
       "title": "Pezón Hundido o Retraído en Tuxtla | Dr. Jorge Albores",
       "description": "Valoración urgente de retracción o inversión de pezón en Tuxtla Gutiérrez por especialista en mastología oncológica.",
@@ -220,7 +216,6 @@ export const symptoms: Symptom[] = [
       "infeccion-vph",
       "miomatosis-uterina"
     ],
-    "image": "/images/sintomas/sangrado-vaginal-anormal.webp",
     "seo": {
       "title": "Sangrado Vaginal Anormal en Tuxtla | Dr. Jorge Albores",
       "description": "Diagnóstico de sangrados intermenstruales y posmenopáusicos en Tuxtla Gutiérrez con histeroscopia y ultrasonido.",
@@ -266,7 +261,6 @@ export const symptoms: Symptom[] = [
       "cancer-cervicouterino",
       "infeccion-vph"
     ],
-    "image": "/images/sintomas/flujo-vaginal-inusual.webp",
     "seo": {
       "title": "Flujo Vaginal e Infecciones en Tuxtla | Dr. Jorge Albores",
       "description": "Tratamiento eficaz de infecciones vaginales recurrentes y flujo anormal en Tuxtla Gutiérrez, Chiapas.",
@@ -315,7 +309,6 @@ export const symptoms: Symptom[] = [
       "sindrome-ovario-poliquistico",
       "preeclampsia-y-trastornos-hipertensivos"
     ],
-    "image": "/images/sintomas/dolor-pelvico.webp",
     "seo": {
       "title": "Dolor Pélvico en Tuxtla Gutiérrez | Dr. Jorge Albores",
       "description": "Diagnóstico y tratamiento por laparoscopia del dolor pélvico y endometriosis en Tuxtla Gutiérrez, Chiapas.",
@@ -361,7 +354,6 @@ export const symptoms: Symptom[] = [
       "cancer-cervicouterino",
       "endometriosis"
     ],
-    "image": "/images/sintomas/dolor-relaciones-dispareunia.webp",
     "seo": {
       "title": "Dolor en las Relaciones (Dispareunia) en Tuxtla | Dr. Jorge Albores",
       "description": "Manejo médico de dolor durante las relaciones íntimas y endometriosis en Tuxtla Gutiérrez, Chiapas.",
@@ -407,7 +399,6 @@ export const symptoms: Symptom[] = [
       "miomatosis-uterina",
       "sindrome-ovario-poliquistico"
     ],
-    "image": "/images/sintomas/menstruaciones-abundantes.webp",
     "seo": {
       "title": "Reglas Abundantes y Sangrado Excesivo en Tuxtla | Dr. Jorge Albores",
       "description": "Atención de menorragia, miomas y pólipos causantes de anemia en Tuxtla Gutiérrez por cirujano endoscopista.",
@@ -454,7 +445,6 @@ export const symptoms: Symptom[] = [
       "endometriosis",
       "quistes-de-ovario"
     ],
-    "image": "/images/sintomas/colicos-severos.webp",
     "seo": {
       "title": "Cólicos Menstruales Severos en Tuxtla | Dr. Jorge Albores",
       "description": "Alivio y diagnóstico de dismenorrea severa y endometriosis en Tuxtla Gutiérrez por cirujano endoscopista.",

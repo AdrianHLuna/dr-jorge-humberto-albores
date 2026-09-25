@@ -163,7 +163,7 @@ export const SymptomSchema = z.object({
   faqs: z.array(FAQItemSchema).min(2).optional(),
   relatedConditions: z.array(z.string()),
   lastReviewed: z.string().regex(ISO_DATE).optional(),
-  image: z.string(),
+  image: z.string().optional(),
   seo: SEOSchema,
 });
 

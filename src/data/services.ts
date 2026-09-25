@@ -38,7 +38,7 @@ export const services: MedicalService[] = [
       "sindrome-ovario-poliquistico",
       "preeclampsia-y-trastornos-hipertensivos"
     ],
-    "image": "/images/servicios/consulta-ginecologica.webp",
+    "image": "/procedimientos/consulta-ginecologica.jpg",
     "seo": {
       "title": "Consulta Ginecológica en Tuxtla Gutiérrez | Dr. Jorge Albores",
       "description": "Consulta ginecológica especializada con exploración mamaria preventiva en Tuxtla Gutiérrez, Chiapas. Primera vez $800 MXN.",
@@ -90,7 +90,7 @@ export const services: MedicalService[] = [
     "relatedConditions": [
       "preeclampsia-y-trastornos-hipertensivos"
     ],
-    "image": "/images/servicios/control-prenatal.webp",
+    "image": "/procedimientos/control-prenatal.jpg",
     "seo": {
       "title": "Control Prenatal en Tuxtla Gutiérrez | Dr. Jorge Albores",
       "description": "Atención del embarazo y control prenatal de alto riesgo con ultrasonido en consultorio. Primera vez $800 MXN en Tuxtla Gutiérrez.",
@@ -145,7 +145,7 @@ export const services: MedicalService[] = [
       "fibroadenoma-mamario",
       "quistes-mamarios"
     ],
-    "image": "/images/servicios/consulta-mastologia.webp",
+    "image": "/procedimientos/consulta-mastologia.jpg",
     "seo": {
       "title": "Consulta de Mastología en Tuxtla Gutiérrez | Dr. Jorge Albores",
       "description": "Especialista en mamas y cirugía oncológica mamaria FUCAM/UNAM en Tuxtla Gutiérrez. Detección de nódulos y dolor mamario.",
@@ -198,7 +198,7 @@ export const services: MedicalService[] = [
       "infeccion-vph",
       "sindrome-ovario-poliquistico"
     ],
-    "image": "/images/servicios/checkup-basico.webp",
+    "image": "/procedimientos/checkup-basico.jpg",
     "seo": {
       "title": "Check-up Ginecológico Básico en Tuxtla | Dr. Jorge Albores",
       "description": "Paquete preventivo que incluye consulta ginecológica y Papanicolaou por $1,500 MXN en Tuxtla Gutiérrez, Chiapas.",
@@ -247,7 +247,7 @@ export const services: MedicalService[] = [
       "cancer-cervicouterino",
       "infeccion-vph"
     ],
-    "image": "/images/servicios/checkup-completo.webp",
+    "image": "/procedimientos/checkup-completo.jpg",
     "seo": {
       "title": "Check-up Ginecológico Completo con Colposcopia | Dr. Jorge Albores",
       "description": "Paquete completo con consulta, colposcopia y Papanicolaou por $2,000 MXN en Tuxtla Gutiérrez. Detección certera de VPH.",
@@ -298,7 +298,7 @@ export const services: MedicalService[] = [
       "cancer-cervicouterino",
       "infeccion-vph"
     ],
-    "image": "/images/servicios/checkup-integral.webp",
+    "image": "/procedimientos/checkup-integral.jpg",
     "seo": {
       "title": "Check-up Integral Ginecológico y Mamario en Tuxtla | Dr. Jorge Albores",
       "description": "Paquete preventivo total con consulta, colposcopia, papanicolaou y ultrasonido por $2,200 MXN en Tuxtla Gutiérrez, Chiapas.",
@@ -352,7 +352,7 @@ export const services: MedicalService[] = [
       "fibroadenoma-mamario",
       "quistes-mamarios"
     ],
-    "image": "/images/servicios/biopsia-core-mama.webp",
+    "image": "/procedimientos/biopsia-core-mama.jpg",
     "seo": {
       "title": "Biopsia Core de Mama en Tuxtla Gutiérrez | Dr. Jorge Albores",
       "description": "Biopsia mamaria guiada por ultrasonido en consultorio por mastólogo egresado de FUCAM. Desde $5,500 MXN en Tuxtla Gutiérrez.",
@@ -408,7 +408,7 @@ export const services: MedicalService[] = [
       "miomatosis-uterina",
       "endometriosis"
     ],
-    "image": "/images/servicios/histeroscopia-diagnostica.webp",
+    "image": "/procedimientos/histeroscopia-diagnostica.jpg",
     "seo": {
       "title": "Histeroscopia Diagnóstica en Tuxtla Gutiérrez | Dr. Jorge Albores",
       "description": "Visualización endoscópica de la cavidad uterina en consultorio. Diagnóstico certero de sangrados y pólipos desde $5,000 MXN.",
@@ -462,7 +462,7 @@ export const services: MedicalService[] = [
       "sindrome-ovario-poliquistico",
       "preeclampsia-y-trastornos-hipertensivos"
     ],
-    "image": "/images/servicios/ultrasonido-mamario-ginecologico.webp",
+    "image": "/procedimientos/ultrasonido-mamario-ginecologico.jpg",
     "seo": {
       "title": "Ultrasonido Mamario y Ginecológico en Tuxtla | Dr. Jorge Albores",
       "description": "Ultrasonido de mamas, pélvico y transvaginal de alta resolución en Tuxtla Gutiérrez, Chiapas. Interpretación especializada inmediata.",
@@ -510,7 +510,7 @@ export const services: MedicalService[] = [
       "cancer-cervicouterino",
       "infeccion-vph"
     ],
-    "image": "/images/servicios/colposcopia-papanicolaou.webp",
+    "image": "/procedimientos/colposcopia-papanicolaou.jpg",
     "seo": {
       "title": "Colposcopia y Papanicolaou en Tuxtla Gutiérrez | Dr. Jorge Albores",
       "description": "Detección temprana de VPH y displasias cervicales con colposcopio de alta definición en Tuxtla Gutiérrez, Chiapas.",
@@ -564,7 +564,7 @@ export const services: MedicalService[] = [
       "endometriosis",
       "quistes-de-ovario"
     ],
-    "image": "/images/servicios/cirugia-ginecologica-mastologica.webp",
+    "image": "/procedimientos/cirugia-ginecologica-mastologica.jpg",
     "seo": {
       "title": "Cirugía Ginecológica y de Mama en Tuxtla | Dr. Jorge Albores",
       "description": "Cirugía laparoscópica ginecológica y cirugía oncoplástica de mama en Tuxtla Gutiérrez por cirujano con alta especialidad FUCAM/UNAM.",

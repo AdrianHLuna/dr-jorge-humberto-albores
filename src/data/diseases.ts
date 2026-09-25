@@ -66,7 +66,7 @@ export const diseases: MedicalCondition[] = [
       "secrecion-anormal-por-el-pezon",
       "retraccion-o-hundimiento-del-pezon"
     ],
-    "image": "/images/enfermedades/cancer-de-mama.webp",
+    "image": "/enfermedades/cancer-de-mama.jpg",
     "seo": {
       "title": "Cáncer de Mama en Tuxtla Gutiérrez | Dr. Jorge Albores",
       "description": "Diagnóstico oportuno y cirugía oncológica de mama en Tuxtla Gutiérrez por cirujano oncólogo de mama egresado de FUCAM.",
@@ -132,7 +132,7 @@ export const diseases: MedicalCondition[] = [
       "bolita-o-nodulo-en-la-mama",
       "dolor-mamario-mastalgia"
     ],
-    "image": "/images/enfermedades/fibroadenoma.webp",
+    "image": "/enfermedades/fibroadenoma.jpg",
     "seo": {
       "title": "Fibroadenoma Mamario en Tuxtla Gutiérrez | Dr. Jorge Albores",
       "description": "Diagnóstico y tratamiento conservador o quirúrgico de fibroadenomas de mama en Tuxtla Gutiérrez, Chiapas.",
@@ -196,7 +196,7 @@ export const diseases: MedicalCondition[] = [
       "bolita-o-nodulo-en-la-mama",
       "dolor-mamario-mastalgia"
     ],
-    "image": "/images/enfermedades/quistes-mamarios.webp",
+    "image": "/enfermedades/quistes-mamarios.jpg",
     "seo": {
       "title": "Quistes en los Senos en Tuxtla Gutiérrez | Dr. Jorge Albores",
       "description": "Diagnóstico por ultrasonido y aspiración de quistes mamarios en consultorio en Tuxtla Gutiérrez, Chiapas.",
@@ -265,7 +265,7 @@ export const diseases: MedicalCondition[] = [
       "flujo-vaginal-inusual",
       "dolor-en-las-relaciones-sexuales"
     ],
-    "image": "/images/enfermedades/cancer-cervicouterino.webp",
+    "image": "/enfermedades/cancer-cervicouterino.jpg",
     "seo": {
       "title": "Prevención de Cáncer Cervicouterino en Tuxtla | Dr. Jorge Albores",
       "description": "Detección temprana con colposcopia y conización cervical en Tuxtla Gutiérrez, Chiapas.",
@@ -333,7 +333,7 @@ export const diseases: MedicalCondition[] = [
       "flujo-vaginal-inusual",
       "sangrado-vaginal-anormal"
     ],
-    "image": "/images/enfermedades/vph.webp",
+    "image": "/enfermedades/vph.jpg",
     "seo": {
       "title": "Tratamiento de VPH en Tuxtla Gutiérrez | Dr. Jorge Albores",
       "description": "Diagnóstico con colposcopia y eliminación de lesiones por VPH en Tuxtla Gutiérrez, Chiapas.",
@@ -402,7 +402,7 @@ export const diseases: MedicalCondition[] = [
       "colicos-menstruales-incapacitantes",
       "sangrado-vaginal-anormal"
     ],
-    "image": "/images/enfermedades/miomatosis-uterina.webp",
+    "image": "/enfermedades/miomatosis-uterina.jpg",
     "seo": {
       "title": "Miomas Uterinos en Tuxtla Gutiérrez | Dr. Jorge Albores",
       "description": "Cirugía laparoscópica e histeroscópica de miomas uterinos en Tuxtla Gutiérrez por cirujano endoscopista.",
@@ -472,7 +472,7 @@ export const diseases: MedicalCondition[] = [
       "dolor-pelvico-cronico-o-agudo",
       "dolor-en-las-relaciones-sexuales"
     ],
-    "image": "/images/enfermedades/endometriosis.webp",
+    "image": "/enfermedades/endometriosis.jpg",
     "seo": {
       "title": "Endometriosis en Tuxtla Gutiérrez | Dr. Jorge Albores",
       "description": "Tratamiento de endometriosis y dolor pélvico severo por laparoscopia avanzada en Tuxtla Gutiérrez, Chiapas.",
@@ -540,7 +540,7 @@ export const diseases: MedicalCondition[] = [
       "dolor-pelvico-cronico-o-agudo",
       "colicos-menstruales-incapacitantes"
     ],
-    "image": "/images/enfermedades/quistes-de-ovario.webp",
+    "image": "/enfermedades/quistes-de-ovario.jpg",
     "seo": {
       "title": "Quistes en los Ovarios en Tuxtla | Dr. Jorge Albores",
       "description": "Cirugía laparoscópica conservadora y tratamiento de quistes ováricos en Tuxtla Gutiérrez, Chiapas.",
@@ -608,7 +608,7 @@ export const diseases: MedicalCondition[] = [
       "menstruaciones-abundantes-o-prolongadas",
       "dolor-pelvico-cronico-o-agudo"
     ],
-    "image": "/images/enfermedades/sop.webp",
+    "image": "/enfermedades/sop.jpg",
     "seo": {
       "title": "Síndrome de Ovario Poliquístico en Tuxtla | Dr. Jorge Albores",
       "description": "Diagnóstico y control integral del SOP y desbalances hormonales en Tuxtla Gutiérrez, Chiapas.",
@@ -676,7 +676,7 @@ export const diseases: MedicalCondition[] = [
     "relatedSymptoms": [
       "dolor-pelvico-cronico-o-agudo"
     ],
-    "image": "/images/enfermedades/preeclampsia.webp",
+    "image": "/enfermedades/preeclampsia.jpg",
     "seo": {
       "title": "Preeclampsia y Presión Alta en Embarazo en Tuxtla | Dr. Jorge Albores",
       "description": "Detección temprana y manejo de preeclampsia en Tuxtla Gutiérrez, Chiapas. Línea de urgencias obstétricas.",

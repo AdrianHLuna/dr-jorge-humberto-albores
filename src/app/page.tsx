@@ -27,6 +27,7 @@ import { services } from "@/data/services";
 import { diseases } from "@/data/diseases";
 import { symptoms } from "@/data/symptoms";
 import { EntityCard } from "@/components/EntityCard";
+import DoctorPortrait from "@/components/DoctorPortrait";
 import { FAQStructuredData } from "@/components/StructuredData";
 
 export default function HomePage() {
@@ -151,143 +152,17 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Columna Derecha: Tarjeta Asimétrica de Agendamiento y Precios */}
-            <div className="lg:col-span-5">
-              <div className="relative p-6 sm:p-8 rounded-[2.5rem] bg-white border border-[#EFE8EC] shadow-[0_20px_50px_rgba(101,58,87,0.1)] overflow-hidden">
-                {/* Acento superior sutil */}
-                <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-[#653A57] via-[#E8B7B7] to-[#4C2C41]" />
+            {/* Columna Derecha: Retrato Oficial del Doctor (Espacio Exclusivo) */}
+            <div className="lg:col-span-5 relative flex justify-center">
+              <div className="relative w-full max-w-md aspect-[4/5] sm:aspect-[3/4] rounded-brand-asym overflow-hidden bg-white shadow-[0_25px_60px_rgba(101,58,87,0.18)] border-4 border-white">
+                <DoctorPortrait
+                  src={doctor.photo}
+                  alt={`${doctor.title} ${doctor.name}`}
+                  priority
+                />
 
-                <div className="flex items-center justify-between pb-5 border-b border-[#EFE8EC]">
-                  <div>
-                    <span className="text-[11px] font-bold uppercase tracking-wider text-[#653A57]">
-                      Consulta Especializada
-                    </span>
-                    <h3 className="text-xl font-bold text-[#2B1D26] font-heading mt-0.5">
-                      Tarifas Transparentes
-                    </h3>
-                  </div>
-                  <div className="h-10 w-10 rounded-full bg-[#F7E8E8] flex items-center justify-center">
-                    <Stethoscope className="w-5 h-5 text-[#653A57]" />
-                  </div>
-                </div>
-
-                {/* Lista de Consultas con Precios */}
-                <div className="py-5 space-y-4">
-                  <div className="flex items-center justify-between p-3.5 rounded-2xl bg-[#FDFBFC] border border-[#EFE8EC]">
-                    <div>
-                      <span className="text-sm font-bold text-[#2B1D26] block">
-                        Consulta Ginecológica
-                      </span>
-                      <span className="text-xs text-[#818080]">
-                        Exploración completa + revisión mamaria
-                      </span>
-                    </div>
-                    <div className="text-right">
-                      <span className="text-lg font-extrabold text-[#653A57] block font-heading">
-                        $800
-                      </span>
-                      <span className="text-[10px] text-neutral-500">$700 subsecuente</span>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-between p-3.5 rounded-2xl bg-[#FDFBFC] border border-[#EFE8EC]">
-                    <div>
-                      <span className="text-sm font-bold text-[#2B1D26] block">
-                        Control Prenatal
-                      </span>
-                      <span className="text-xs text-[#818080]">
-                        Monitoreo fetal ecográfico en consultorio
-                      </span>
-                    </div>
-                    <div className="text-right">
-                      <span className="text-lg font-extrabold text-[#653A57] block font-heading">
-                        $800
-                      </span>
-                      <span className="text-[10px] text-neutral-500">$700 subsecuente</span>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-between p-3.5 rounded-2xl bg-[#FDFBFC] border border-[#EFE8EC]">
-                    <div>
-                      <span className="text-sm font-bold text-[#2B1D26] block">
-                        Consulta de Mastología
-                      </span>
-                      <span className="text-xs text-[#818080]">
-                        Alta Especialidad FUCAM / UNAM
-                      </span>
-                    </div>
-                    <div className="text-right">
-                      <span className="text-lg font-extrabold text-[#653A57] block font-heading">
-                        $1,000
-                      </span>
-                      <span className="text-[10px] text-neutral-500">$800 subsecuente</span>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Paquete Check-up Destacado */}
-                <div className="p-4 rounded-2xl bg-gradient-to-br from-[#F7E8E8]/60 to-[#DFDEEB]/40 border border-[#E8B7B7]/40 mb-6">
-                  <div className="flex items-center justify-between mb-1">
-                    <span className="text-xs font-bold text-[#653A57] flex items-center gap-1">
-                      <Sparkles className="w-3.5 h-3.5 text-[#653A57]" />
-                      Paquetes Check-up Preventivos
-                    </span>
-                    <span className="text-xs font-bold text-[#653A57]">Desde $1,500</span>
-                  </div>
-                  <p className="text-xs text-[#616060]">
-                    Consulta + Papanicolaou + Colposcopia + Ultrasonido en una sola cita.
-                  </p>
-                </div>
-
-                {/* Botón directo de agenda */}
-                <a
-                  href={`https://wa.me/${doctor.whatsapp.replace("+", "")}?text=Hola%20Dr.%20Jorge%20Albores,%20deseo%20agendar%20una%20cita.`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full flex items-center justify-center gap-2 py-4 rounded-2xl bg-[#653A57] hover:bg-[#4C2C41] text-white font-semibold text-sm transition-all shadow-md"
-                >
-                  <Calendar className="w-4 h-4 text-[#E8B7B7]" />
-                  <span>Solicitar Cita en Consultorio</span>
-                </a>
-
-                <p className="text-center text-[11px] text-[#818080] mt-3">
-                  Pago en efectivo y transferencia bancaria directa.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ─── 2. TRAYECTORIA Y SOBRE EL MÉDICO (PORTRAIT FRAME) ──────── */}
-      <section className="py-20 bg-white border-y border-[#EFE8EC]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            {/* Marco de Imagen Asimétrico per AGENTS.md */}
-            <div className="lg:col-span-5 flex justify-center">
-              <div className="relative w-full max-w-sm aspect-[3/4] rounded-brand-asym overflow-hidden bg-neutral-100 shadow-[0_20px_45px_rgba(101,58,87,0.14)] border-4 border-white">
-                <div className="image-fallback-mastologia absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
-                  <div className="relative w-28 h-28 mb-4">
-                    <Image
-                      src="/emblem.png"
-                      alt="Dr. Jorge Albores"
-                      fill
-                      className="object-contain"
-                    />
-                  </div>
-                  <h3 className="text-lg font-bold text-[#2B1D26] font-heading">
-                    Dr. Jorge Humberto Albores Mejía
-                  </h3>
-                  <span className="text-xs font-semibold text-[#653A57] uppercase tracking-wider mt-1">
-                    Ginecólogo y Mastólogo
-                  </span>
-                  <div className="mt-4 px-3 py-1.5 rounded-full bg-white/90 text-[11px] font-mono font-medium text-[#2B1D26] border border-[#E8B7B7]/40">
-                    Céd. Esp. 15060290 (UNACH)
-                  </div>
-                </div>
-
-                {/* Insignia Flotante de Experiencia */}
-                <div className="absolute bottom-5 left-5 right-5 p-4 rounded-2xl bg-white/95 backdrop-blur-md shadow-lg border border-[#E8B7B7]/40 flex items-center justify-around text-center">
+                {/* Placa Flotante de Experiencia y Trayectoria */}
+                <div className="absolute bottom-5 left-5 right-5 p-4 rounded-2xl bg-white/95 backdrop-blur-md shadow-xl border border-[#E8B7B7]/40 flex items-center justify-around text-center">
                   <div>
                     <span className="block text-xl font-bold text-[#653A57] font-heading">+5,000</span>
                     <span className="text-[10px] text-[#616060] font-medium">Pacientes</span>
@@ -300,9 +175,27 @@ export default function HomePage() {
                   <div className="w-px h-8 bg-neutral-200" />
                   <div>
                     <span className="block text-xl font-bold text-[#653A57] font-heading">+6 Años</span>
-                    <span className="text-[10px] text-[#616060] font-medium">Trayectoria</span>
+                    <span className="text-[10px] text-[#616060] font-medium">Experiencia</span>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── 2. TRAYECTORIA Y SOBRE EL MÉDICO (PORTRAIT FRAME) ──────── */}
+      <section className="py-20 bg-white border-y border-[#EFE8EC]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            {/* Marco de Imagen Asimétrico per AGENTS.md */}
+            <div className="lg:col-span-5 flex justify-center">
+              <div className="relative w-full max-w-sm aspect-[4/5] rounded-brand-asym overflow-hidden bg-white shadow-[0_20px_45px_rgba(101,58,87,0.14)] border-4 border-white">
+                <DoctorPortrait
+                  src={doctor.aboutPhoto ?? doctor.photo}
+                  alt={`${doctor.title} ${doctor.name}`}
+                  frame
+                />
               </div>
             </div>
 
@@ -368,7 +261,120 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─── 3. PAQUETES CHECK-UP GINECOLÓGICO Y MASTOLÓGICO ──────── */}
+      {/* ─── 3. CONSULTAS DE ESPECIALIDAD & TARIFAS TRANSPARENTES ──── */}
+      <section className="py-20 bg-white border-b border-[#EFE8EC]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-2xl mx-auto mb-14">
+            <span className="text-xs font-bold uppercase tracking-wider text-[#653A57]">
+              Atención Médica Presencial
+            </span>
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#2B1D26] font-heading tracking-tight mt-1">
+              Tarifas Transparentes de Consulta
+            </h2>
+            <p className="text-sm sm:text-base text-[#616060] mt-3">
+              Honorarios médicos claros y definidos para tu tranquilidad desde la primera cita en Tuxtla Gutiérrez.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            {/* Consulta Ginecológica */}
+            <div className="p-7 rounded-3xl bg-[#FDFBFC] border border-[#EFE8EC] hover:border-[#E8B7B7] transition-all hover:shadow-md flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold uppercase tracking-wider text-[#653A57] block mb-1">
+                  Ginecología General
+                </span>
+                <h3 className="text-2xl font-bold text-[#2B1D26] font-heading">
+                  Consulta Ginecológica
+                </h3>
+                <p className="text-xs sm:text-sm text-[#616060] mt-2 leading-relaxed">
+                  Exploración ginecológica minuciosa, revisión mamaria clínica preventiva y asesoría integral en salud femenina.
+                </p>
+                <div className="my-6 pt-5 border-t border-neutral-100">
+                  <span className="text-3xl sm:text-4xl font-extrabold text-[#653A57] font-heading">$800</span>
+                  <span className="text-xs text-neutral-500 ml-1">MXN (1ra vez)</span>
+                  <p className="text-xs text-[#818080] mt-1">$700 MXN en consultas subsecuentes</p>
+                </div>
+              </div>
+              <a
+                href={`https://wa.me/${doctor.whatsapp.replace("+", "")}?text=Hola%20Dr.%20Jorge%20Albores,%20deseo%20agendar%20una%20Consulta%20Ginecol%C3%B3gica.`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl bg-white hover:bg-[#653A57] text-[#653A57] hover:text-white font-semibold text-xs transition-colors border border-[#EFE8EC] hover:border-[#653A57]"
+              >
+                <MessageCircle className="w-3.5 h-3.5" />
+                <span>Agendar Consulta Ginecológica</span>
+              </a>
+            </div>
+
+            {/* Control Prenatal */}
+            <div className="p-7 rounded-3xl bg-[#FDFBFC] border border-[#EFE8EC] hover:border-[#E8B7B7] transition-all hover:shadow-md flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold uppercase tracking-wider text-[#653A57] block mb-1">
+                  Obstetricia & Alto Riesgo
+                </span>
+                <h3 className="text-2xl font-bold text-[#2B1D26] font-heading">
+                  Control Prenatal
+                </h3>
+                <p className="text-xs sm:text-sm text-[#616060] mt-2 leading-relaxed">
+                  Monitoreo ecográfico del crecimiento y bienestar fetal en consultorio, signos vitales y tamizaje de preeclampsia.
+                </p>
+                <div className="my-6 pt-5 border-t border-neutral-100">
+                  <span className="text-3xl sm:text-4xl font-extrabold text-[#653A57] font-heading">$800</span>
+                  <span className="text-xs text-neutral-500 ml-1">MXN (1ra vez)</span>
+                  <p className="text-xs text-[#818080] mt-1">$700 MXN en consultas subsecuentes</p>
+                </div>
+              </div>
+              <a
+                href={`https://wa.me/${doctor.whatsapp.replace("+", "")}?text=Hola%20Dr.%20Jorge%20Albores,%20deseo%20agendar%20Control%20Prenatal.`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl bg-white hover:bg-[#653A57] text-[#653A57] hover:text-white font-semibold text-xs transition-colors border border-[#EFE8EC] hover:border-[#653A57]"
+              >
+                <MessageCircle className="w-3.5 h-3.5" />
+                <span>Agendar Control Prenatal</span>
+              </a>
+            </div>
+
+            {/* Consulta de Mastología */}
+            <div className="p-7 rounded-3xl bg-white border-2 border-[#653A57] shadow-xl flex flex-col justify-between relative -translate-y-1">
+              <div className="absolute -top-3.5 right-6 px-3.5 py-1 rounded-full bg-[#653A57] text-white text-[11px] font-bold uppercase tracking-wider shadow-sm">
+                FUCAM / UNAM
+              </div>
+              <div>
+                <span className="text-xs font-bold uppercase tracking-wider text-[#653A57] block mb-1">
+                  Alta Especialidad
+                </span>
+                <h3 className="text-2xl font-bold text-[#2B1D26] font-heading">
+                  Consulta de Mastología
+                </h3>
+                <p className="text-xs sm:text-sm text-[#616060] mt-2 leading-relaxed">
+                  Evaluación experta de nódulos mamarios, dolor, secreción por pezón, correlación BI-RADS y prevención de cáncer.
+                </p>
+                <div className="my-6 pt-5 border-t border-neutral-100">
+                  <span className="text-3xl sm:text-4xl font-extrabold text-[#653A57] font-heading">$1,000</span>
+                  <span className="text-xs text-neutral-500 ml-1">MXN (1ra vez)</span>
+                  <p className="text-xs text-[#818080] mt-1">$800 MXN en consultas subsecuentes</p>
+                </div>
+              </div>
+              <a
+                href={`https://wa.me/${doctor.whatsapp.replace("+", "")}?text=Hola%20Dr.%20Jorge%20Albores,%20deseo%20agendar%20Consulta%20de%20Mastolog%C3%ADa.`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl bg-[#653A57] hover:bg-[#4C2C41] text-white font-semibold text-xs shadow-md transition-all"
+              >
+                <MessageCircle className="w-3.5 h-3.5 text-[#E8B7B7]" />
+                <span>Agendar Consulta de Mastología</span>
+              </a>
+            </div>
+          </div>
+
+          <p className="text-center text-xs text-[#818080] mt-8">
+            Pago en efectivo y transferencia bancaria directa. No convenios directos con aseguradoras (se expide comprobante fiscal e informe médico para reembolso).
+          </p>
+        </div>
+      </section>
+
+      {/* ─── 4. PAQUETES CHECK-UP GINECOLÓGICO Y MASTOLÓGICO ──────── */}
       <section className="py-20 bg-[#FAF4F7]/60">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-14">

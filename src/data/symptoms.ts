@@ -2,683 +2,474 @@ import { Symptom } from "@/types/schema";
 
 export const symptoms: Symptom[] = [
   {
-    id: "bolita-o-nodulo-en-la-mama",
-    slug: "bolita-o-nodulo-en-la-mama",
-    name: "Bolita o Bulto Palpable en la Mama o Axila",
-    category: "mama",
-    colloquialNames: ["Masa mamaria", "Nódulo en el seno", "Bulto en la axila"],
-    description: "Palpación de una masa circunscrita, dura o blanda, móvil o fija, en el tejido glandular mamario o en el hueco axilar. Es el principal motivo de consulta en mastología.",
-    urgencyLevel: "alta",
-    causes: [
+    "id": "bolita-o-nodulo-en-la-mama",
+    "slug": "bolita-o-nodulo-en-la-mama",
+    "name": "Bolita o Bulto Palpable en la Mama o Axila",
+    "category": "mama",
+    "colloquialNames": [
+      "Masa mamaria",
+      "Nódulo en el seno",
+      "Bulto en la axila"
+    ],
+    "description": "Palpación de una masa circunscrita, dura o blanda, móvil o fija, en el tejido glandular mamario o en el hueco axilar. Es el principal motivo de consulta en mastología.",
+    "urgencyLevel": "alta",
+    "causes": [
       "Quistes mamarios simples o complejos con contenido líquido",
       "Fibroadenomas (tumores benignos frecuentes en mujeres jóvenes)",
       "Mastopatía fibroquística y cambios hormonales del ciclo",
       "Lesiones proliferativas o neoplasias mamarias (cáncer de mama)",
-      "Procesos inflamatorios o adenopatías reactivas en axila",
+      "Procesos inflamatorios o adenopatías reactivas en axila"
     ],
-    alarmSigns: [
+    "alarmSigns": [
       "Nódulo duro, de bordes irregulares y fijo a planos profundos o piel",
       "Crecimiento rápido en pocas semanas o meses",
       "Presencia simultánea de ganglios duros en la axila o por encima de la clavícula",
-      "Hundimiento de la piel o pezón sobre el área del bulto",
+      "Hundimiento de la piel o pezón sobre el área del bulto"
     ],
-    whyConsult: "La inmensa mayoría de las bolitas en la mama son benignas, pero solo la evaluación de un mastólogo con ultrasonido o biopsia core puede descartar malignidad con certeza absoluta.",
-    relatedConditions: [
+    "whyConsult": "La inmensa mayoría de las bolitas en la mama son benignas, pero solo la evaluación de un mastólogo con ultrasonido o biopsia core puede descartar malignidad con certeza absoluta.",
+    "relatedConditions": [
       "cancer-de-mama",
       "fibroadenoma-mamario",
-      "quistes-mamarios",
+      "quistes-mamarios"
     ],
-    image: "/images/sintomas/bolita-nodulo-mama.webp",
-    seo: {
-      title: "Bolita en el Seno o Nódulo Mamario en Tuxtla | Dr. Jorge Albores",
-      description: "Evaluación especializada de masas y bolitas en la mama por mastólogo de FUCAM en Tuxtla Gutiérrez, Chiapas.",
-      keywords: ["bolita en el seno tuxtla", "nodulo mamario mastologo", "bulto en la axila chiapas", "estudio de masa mamaria"],
+    "image": "/images/sintomas/bolita-nodulo-mama.webp",
+    "seo": {
+      "title": "Bolita en el Seno o Nódulo Mamario en Tuxtla | Dr. Jorge Albores",
+      "description": "Evaluación especializada de masas y bolitas en la mama por mastólogo de FUCAM en Tuxtla Gutiérrez, Chiapas.",
+      "keywords": [
+        "bolita en el seno tuxtla",
+        "nodulo mamario mastologo",
+        "bulto en la axila chiapas",
+        "estudio de masa mamaria"
+      ]
     },
-    faqs: [
+    "faqs": [
       {
-        question: "¿Toda bolita en el seno es cáncer?",
-        answer: "No. Más del 80% de los nódulos palpables en mujeres en edad fértil corresponden a condiciones benignas como quistes o fibroadenomas. Sin embargo, toda masa debe ser revisada por un especialista.",
+        "question": "¿Toda bolita en el seno es cáncer?",
+        "answer": "No. Más del 80% de los nódulos palpables en mujeres en edad fértil corresponden a condiciones benignas como quistes o fibroadenomas. Sin embargo, toda masa debe ser revisada por un especialista."
       },
       {
-        question: "¿Qué estudio debo realizarme primero?",
-        answer: "En menores de 40 años el ultrasonido mamario de alta resolución es el estudio de primera elección. En mujeres de 40 años o más se solicita mastografía bilateral complementada con ultrasonido.",
-      },
-    ],
+        "question": "¿Qué estudio debo realizarme primero?",
+        "answer": "En menores de 40 años el ultrasonido mamario de alta resolución es el estudio de primera elección. En mujeres de 40 años o más se solicita mastografía bilateral complementada con ultrasonido."
+      }
+    ]
   },
   {
-    id: "dolor-mamario-mastalgia",
-    slug: "dolor-mamario-mastalgia",
-    name: "Dolor Mamario (Mastalgia Cíclica y No Cíclica)",
-    category: "mama",
-    colloquialNames: ["Dolor en los senos", "Punzadas en los senos", "Tensión mamaria"],
-    description: "Sensación de tirantez, pesadez, ardor o punzadas en una o ambas mamas, frecuentemente exacerbada en la fase premenstrual o de carácter constante.",
-    urgencyLevel: "moderada",
-    causes: [
+    "id": "dolor-mamario-mastalgia",
+    "slug": "dolor-mamario-mastalgia",
+    "name": "Dolor Mamario (Mastalgia Cíclica y No Cíclica)",
+    "category": "mama",
+    "colloquialNames": [
+      "Dolor en los senos",
+      "Punzadas en los senos",
+      "Tensión mamaria"
+    ],
+    "description": "Sensación de tirantez, pesadez, ardor o punzadas en una o ambas mamas, frecuentemente exacerbada en la fase premenstrual o de carácter constante.",
+    "urgencyLevel": "moderada",
+    "causes": [
       "Sensibilidad mamaria al estímulo hormonal de estrógenos y progesterona",
       "Mastopatía fibroquística y quistes en tensión",
       "Uso de sostenes inadecuados o con varillas opresivas",
-      "Procesos infecciosos (mastitis) o contractura muscular torácica",
+      "Procesos infecciosos (mastitis) o contractura muscular torácica"
     ],
-    alarmSigns: [
+    "alarmSigns": [
       "Dolor unilateral muy localizado que no cede y no cambia con la regla",
       "Acompañado de enrojecimiento intenso, calor local o fiebre (sospecha de mastitis/absceso)",
-      "Dolor asociado a un nódulo palpable o salida de secreción sanguinolenta",
+      "Dolor asociado a un nódulo palpable o salida de secreción sanguinolenta"
     ],
-    whyConsult: "Aunque el dolor mamario rara vez es signo inicial de cáncer, una valoración mastológica descarta quistes a tensión y brinda alivio integral sin recurrir a tratamientos innecesarios.",
-    relatedConditions: [
-      "mastopatia-fibroquistica",
-      "quistes-mamarios",
-      "mastitis-y-absceso-mamario",
+    "whyConsult": "Aunque el dolor mamario rara vez es signo inicial de cáncer, una valoración mastológica descarta quistes a tensión y brinda alivio integral sin recurrir a tratamientos innecesarios.",
+    "relatedConditions": [
+      "fibroadenoma-mamario",
+      "quistes-mamarios"
     ],
-    image: "/images/sintomas/dolor-mamario-mastalgia.webp",
-    seo: {
-      title: "Dolor en los Senos (Mastalgia) en Tuxtla | Dr. Jorge Albores",
-      description: "Diagnóstico y alivio del dolor mamario cíclico y mastopatía fibroquística en Tuxtla Gutiérrez con el Dr. Jorge Albores.",
-      keywords: ["dolor en senos tuxtla", "mastalgia tratamiento chiapas", "punzadas en la mama", "mastopatia fibroquistica dolor"],
+    "image": "/images/sintomas/dolor-mamario-mastalgia.webp",
+    "seo": {
+      "title": "Dolor en los Senos (Mastalgia) en Tuxtla | Dr. Jorge Albores",
+      "description": "Diagnóstico y alivio del dolor mamario cíclico y mastopatía fibroquística en Tuxtla Gutiérrez con el Dr. Jorge Albores.",
+      "keywords": [
+        "dolor en senos tuxtla",
+        "mastalgia tratamiento chiapas",
+        "punzadas en la mama",
+        "mastopatia fibroquistica dolor"
+      ]
     },
-    faqs: [
+    "faqs": [
       {
-        question: "¿El dolor de senos significa cáncer?",
-        answer: "Por lo general el cáncer de mama en etapas tempranas no produce dolor. El dolor suele relacionarse con cambios hormonales benignos o quistes.",
-      },
-    ],
+        "question": "¿El dolor de senos significa cáncer?",
+        "answer": "Por lo general el cáncer de mama en etapas tempranas no produce dolor. El dolor suele relacionarse con cambios hormonales benignos o quistes."
+      }
+    ]
   },
   {
-    id: "secrecion-anormal-por-el-pezon",
-    slug: "secrecion-anormal-por-el-pezon",
-    name: "Secreción o Salida de Líquido por el Pezón (Telorrea / Telorragia)",
-    category: "mama",
-    colloquialNames: ["Líquido por el pezón", "Sangre por el pezón", "Salida de leche sin estar embarazada"],
-    description: "Emisión espontánea o a la compresión de líquido seroso, lechoso, transparente o sanguinolento a través de los conductos galactóforos del pezón.",
-    urgencyLevel: "alta",
-    causes: [
+    "id": "secrecion-anormal-por-el-pezon",
+    "slug": "secrecion-anormal-por-el-pezon",
+    "name": "Secreción o Salida de Líquido por el Pezón (Telorrea / Telorragia)",
+    "category": "mama",
+    "colloquialNames": [
+      "Líquido por el pezón",
+      "Sangre por el pezón",
+      "Salida de leche sin estar embarazada"
+    ],
+    "description": "Emisión espontánea o a la compresión de líquido seroso, lechoso, transparente o sanguinolento a través de los conductos galactóforos del pezón.",
+    "urgencyLevel": "alta",
+    "causes": [
       "Papiloma intraductal (tumor benigno dentro de los conductos de la leche)",
       "Ectasia ductal mamaria (dilatación de conductos)",
       "Hiperprolactinemia (elevación de hormona prolactina)",
-      "Carcinoma intraductal de la mama",
+      "Carcinoma intraductal de la mama"
     ],
-    alarmSigns: [
+    "alarmSigns": [
       "Secreción espontánea (sale sola sin apretar el pezón)",
       "Líquido sanguinolento (rojo) o transparente tipo agua de roca",
       "Secreción por un solo pezón (unilateral) y por un solo orificio",
-      "Asociada a bulto palpable cercano a la areola",
+      "Asociada a bulto palpable cercano a la areola"
     ],
-    whyConsult: "La secreción unilateral sanguinolenta o transparente requiere evaluación mastológica inmediata para estudiar los conductos mamarios y descartar papilomas o carcinomas.",
-    relatedConditions: [
-      "papiloma-intraductal",
-      "cancer-de-mama",
+    "whyConsult": "La secreción unilateral sanguinolenta o transparente requiere evaluación mastológica inmediata para estudiar los conductos mamarios y descartar papilomas o carcinomas.",
+    "relatedConditions": [
+      "cancer-de-mama"
     ],
-    image: "/images/sintomas/secrecion-pezon.webp",
-    seo: {
-      title: "Secreción por el Pezón en Tuxtla Gutiérrez | Dr. Jorge Albores",
-      description: "Atención especializada de sangrado o líquido por el pezón por cirujano oncólogo de mama en Tuxtla Gutiérrez.",
-      keywords: ["sangre por pezon tuxtla", "liquido por el pezon chiapas", "papiloma intraductal mastologo", "telorrea tratamiento"],
+    "image": "/images/sintomas/secrecion-pezon.webp",
+    "seo": {
+      "title": "Secreción por el Pezón en Tuxtla Gutiérrez | Dr. Jorge Albores",
+      "description": "Atención especializada de sangrado o líquido por el pezón por cirujano oncólogo de mama en Tuxtla Gutiérrez.",
+      "keywords": [
+        "sangre por pezon tuxtla",
+        "liquido por el pezon chiapas",
+        "papiloma intraductal mastologo",
+        "telorrea tratamiento"
+      ]
     },
-    faqs: [
+    "faqs": [
       {
-        question: "¿Cuándo es peligrosa la secreción del pezón?",
-        answer: "Cuando es espontánea (mancha la ropa sin exprimir), proviene de una sola mama y es de color café, rojizo (sangre) o cristalina como agua.",
-      },
-    ],
+        "question": "¿Cuándo es peligrosa la secreción del pezón?",
+        "answer": "Cuando es espontánea (mancha la ropa sin exprimir), proviene de una sola mama y es de color café, rojizo (sangre) o cristalina como agua."
+      }
+    ]
   },
   {
-    id: "retraccion-o-hundimiento-del-pezon",
-    slug: "retraccion-o-hundimiento-del-pezon",
-    name: "Retracción o Hundimiento Reciente del Pezón o la Areola",
-    category: "mama",
-    colloquialNames: ["Pezón hundido de repente", "Inversión del pezón", "Pezón desviado"],
-    description: "Modificación en la orientación o aplanamiento del pezón que tiende a introducirse hacia el interior de la glándula mamaria de forma adquirida y reciente.",
-    urgencyLevel: "alta",
-    causes: [
+    "id": "retraccion-o-hundimiento-del-pezon",
+    "slug": "retraccion-o-hundimiento-del-pezon",
+    "name": "Retracción o Hundimiento Reciente del Pezón o la Areola",
+    "category": "mama",
+    "colloquialNames": [
+      "Pezón hundido de repente",
+      "Inversión del pezón",
+      "Pezón desviado"
+    ],
+    "description": "Modificación en la orientación o aplanamiento del pezón que tiende a introducirse hacia el interior de la glándula mamaria de forma adquirida y reciente.",
+    "urgencyLevel": "alta",
+    "causes": [
       "Tracción de conductos galactóforos por fibrosis o tumor subyacente",
       "Ectasia ductal con inflamación periductal crónica",
-      "Cáncer de mama con compromiso del complejo areola-pezón",
+      "Cáncer de mama con compromiso del complejo areola-pezón"
     ],
-    alarmSigns: [
+    "alarmSigns": [
       "Hundimiento de reciente aparición que no puede revertirse manualmente",
       "Desviación o fijación del pezón hacia un lado",
-      "Presencia de engrosamiento o masa palpable debajo de la areola",
+      "Presencia de engrosamiento o masa palpable debajo de la areola"
     ],
-    whyConsult: "Mientras que los pezones planos o invertidos congénitos desde la adolescencia son normales, un pezón que se hunde repentinamente en la adultez es un signo de sospecha cardinal que debe revisarse de inmediato.",
-    relatedConditions: [
-      "cancer-de-mama",
+    "whyConsult": "Mientras que los pezones planos o invertidos congénitos desde la adolescencia son normales, un pezón que se hunde repentinamente en la adultez es un signo de sospecha cardinal que debe revisarse de inmediato.",
+    "relatedConditions": [
+      "cancer-de-mama"
     ],
-    image: "/images/sintomas/retraccion-pezon.webp",
-    seo: {
-      title: "Pezón Hundido o Retraído en Tuxtla | Dr. Jorge Albores",
-      description: "Valoración urgente de retracción o inversión de pezón en Tuxtla Gutiérrez por especialista en mastología oncológica.",
-      keywords: ["pezon hundido tuxtla", "retraccion de pezon mastologia", "signos cancer de mama", "pezon hacia adentro chiapas"],
+    "image": "/images/sintomas/retraccion-pezon.webp",
+    "seo": {
+      "title": "Pezón Hundido o Retraído en Tuxtla | Dr. Jorge Albores",
+      "description": "Valoración urgente de retracción o inversión de pezón en Tuxtla Gutiérrez por especialista en mastología oncológica.",
+      "keywords": [
+        "pezon hundido tuxtla",
+        "retraccion de pezon mastologia",
+        "signos cancer de mama",
+        "pezon hacia adentro chiapas"
+      ]
     },
-    faqs: [
+    "faqs": [
       {
-        question: "Siempre he tenido pezones planos, ¿debo preocuparme?",
-        answer: "No si es tu condición natural desde la pubertad y es bilateral. La señal de alerta ocurre cuando un pezón que antes sobresalía normalmente comienza a hundirse de manera reciente en una sola mama.",
-      },
-    ],
+        "question": "Siempre he tenido pezones planos, ¿debo preocuparme?",
+        "answer": "No si es tu condición natural desde la pubertad y es bilateral. La señal de alerta ocurre cuando un pezón que antes sobresalía normalmente comienza a hundirse de manera reciente en una sola mama."
+      }
+    ]
   },
   {
-    id: "cambios-en-la-piel-de-la-mama",
-    slug: "cambios-en-la-piel-de-la-mama",
-    name: "Cambios en la Piel del Seno (Piel de Naranja, Enrojecimiento o Hoyuelos)",
-    category: "mama",
-    colloquialNames: ["Piel con hoyuelos", "Seno rojo y caliente", "Piel de naranja en la mama"],
-    description: "Engrosamiento cutáneo con poros dilatados prominentes similar a la cáscara de naranja, hundimientos en la superficie del seno o enrojecimiento extenso.",
-    urgencyLevel: "urgencia_inmediata",
-    causes: [
-      "Obstrucción de vasos linfáticos dérmicos por células tumorales (cáncer de mama inflamatorio)",
-      "Infección bacteriana profunda (mastitis o absceso mamario)",
-      "Retracción de ligamentos de Cooper por lesión subyacente",
+    "id": "sangrado-vaginal-anormal",
+    "slug": "sangrado-vaginal-anormal",
+    "name": "Sangrado Vaginal Anormal o Manchado Intermenstrual",
+    "category": "ginecologico",
+    "colloquialNames": [
+      "Sangrado fuera de tiempo",
+      "Manchado entre periodos",
+      "Sangrado después de la menopausia"
     ],
-    alarmSigns: [
-      "Textura rugosa y poros abiertos (piel de naranja) en cualquier cuadrante",
-      "Enrojecimiento que abarca más de un tercio de la mama con aumento de calor",
-      "Aparición de hoyuelos al levantar los brazos",
-    ],
-    whyConsult: "La presencia de hoyuelos o piel de naranja exige revisión prioritaria por mastología oncológica para descartar cáncer inflamatorio o tratar oportunamente infecciones complejas.",
-    relatedConditions: [
-      "cancer-de-mama",
-      "mastitis-y-absceso-mamario",
-    ],
-    image: "/images/sintomas/piel-naranja-mama.webp",
-    seo: {
-      title: "Piel de Naranja y Enrojecimiento en la Mama | Dr. Jorge Albores",
-      description: "Evaluación de hoyuelos y cambios en la piel de la mama en Tuxtla Gutiérrez por cirujano oncólogo de mama.",
-      keywords: ["piel de naranja mama tuxtla", "seno enrojecido mastologia", "hoyuelo en el seno chiapas", "cancer inflamatorio mama"],
-    },
-    faqs: [
-      {
-        question: "¿Qué provoca la piel de naranja?",
-        answer: "Ocurre cuando el drenaje linfático de la piel se bloquea, provocando edema y retracción en los puntos de inserción de los folículos pilosos, dándole ese aspecto texturizado.",
-      },
-    ],
-  },
-  {
-    id: "asimetria-mamaria-de-reciente-aparicion",
-    slug: "asimetria-mamaria-de-reciente-aparicion",
-    name: "Asimetría Mamaria o Cambio Rápido de Tamaño",
-    category: "mama",
-    colloquialNames: ["Un seno más grande de repente", "Diferencia de tamaño en los senos", "Seno hinchado"],
-    description: "Aumento notable y unilateral del volumen o peso de un seno en comparación con el otro en un periodo breve de tiempo.",
-    urgencyLevel: "moderada",
-    causes: [
-      "Crecimiento de fibroadenoma gigante o tumor filodes",
-      "Colección líquida por quiste mamario de gran volumen",
-      "Proceso inflamatorio agudo o mastitis",
-      "Neoplasias mamarias de evolución subaguda",
-    ],
-    alarmSigns: [
-      "Aumento evidente de tamaño en pocas semanas",
-      "Sensación de pesadez asimétrica notable",
-      "Aparición simultánea de venas superficiales dilatadas en el seno afectado",
-    ],
-    whyConsult: "Aunque la leve asimetría mamaria anatómica es común y normal en casi todas las mujeres, un cambio de tamaño rápido o desproporcionado amerita ecografía mamaria inmediata.",
-    relatedConditions: [
-      "cancer-de-mama",
-      "fibroadenoma-mamario",
-    ],
-    image: "/images/sintomas/asimetria-mamaria.webp",
-    seo: {
-      title: "Asimetría Mamaria Reciente en Tuxtla | Dr. Jorge Albores",
-      description: "Revisión de cambios rápidos de tamaño y asimetría en senos en Tuxtla Gutiérrez, Chiapas.",
-      keywords: ["un seno mas grande tuxtla", "asimetria mamaria repentina", "crecimiento rapido seno", "mastologo chiapas"],
-    },
-    faqs: [
-      {
-        question: "¿Es normal tener un seno un poco más grande que el otro?",
-        answer: "Sí, la asimetría sutil es totalmente normal y anatómica. Lo que requiere consulta médica es cuando un seno cambia visiblemente de tamaño o forma en semanas o meses.",
-      },
-    ],
-  },
-  {
-    id: "sangrado-vaginal-anormal",
-    slug: "sangrado-vaginal-anormal",
-    name: "Sangrado Vaginal Anormal o Manchado Intermenstrual",
-    category: "ginecologico",
-    colloquialNames: ["Sangrado fuera de tiempo", "Manchado entre periodos", "Sangrado después de la menopausia"],
-    description: "Hemorragia o manchado uterino que ocurre fuera del ciclo menstrual regular, tras las relaciones sexuales o meses después de haber ingresado a la menopausia.",
-    urgencyLevel: "alta",
-    causes: [
+    "description": "Hemorragia o manchado uterino que ocurre fuera del ciclo menstrual regular, tras las relaciones sexuales o meses después de haber ingresado a la menopausia.",
+    "urgencyLevel": "alta",
+    "causes": [
       "Miomas uterinos submucosos o intramurales",
       "Pólipos endometriales o cervicales",
       "Hiperplasia endometrial",
       "Lesiones cervicales por VPH o cáncer cervicouterino",
-      "Atrofia endometrial o desequilibrios hormonales",
+      "Atrofia endometrial o desequilibrios hormonales"
     ],
-    alarmSigns: [
+    "alarmSigns": [
       "Cualquier sangrado después de un año de no menstruar (posmenopausia)",
       "Sangrado inmediato tras el contacto sexual (sinusorragia)",
-      "Pérdida sanguínea profusa con coágulos que causa mareo o palidez",
+      "Pérdida sanguínea profusa con coágulos que causa mareo o palidez"
     ],
-    whyConsult: "El sangrado posmenopáusico o intermenstrual abundante debe ser investigado siempre mediante ultrasonido pélvico o histeroscopia para descartar pólipos, hiperplasia o lesiones malignas.",
-    relatedConditions: [
-      "sangrado-uterino-anormal",
-      "miomatosis-uterina",
-      "polipos-endometriales",
-      "hiperplasia-endometrial",
+    "whyConsult": "El sangrado posmenopáusico o intermenstrual abundante debe ser investigado siempre mediante ultrasonido pélvico o histeroscopia para descartar pólipos, hiperplasia o lesiones malignas.",
+    "relatedConditions": [
       "cancer-cervicouterino",
+      "infeccion-vph",
+      "miomatosis-uterina"
     ],
-    image: "/images/sintomas/sangrado-vaginal-anormal.webp",
-    seo: {
-      title: "Sangrado Vaginal Anormal en Tuxtla | Dr. Jorge Albores",
-      description: "Diagnóstico de sangrados intermenstruales y posmenopáusicos en Tuxtla Gutiérrez con histeroscopia y ultrasonido.",
-      keywords: ["sangrado fuera de tiempo tuxtla", "sangrado menopausia chiapas", "hemorragia uterina ginecologo", "manchado marron"],
+    "image": "/images/sintomas/sangrado-vaginal-anormal.webp",
+    "seo": {
+      "title": "Sangrado Vaginal Anormal en Tuxtla | Dr. Jorge Albores",
+      "description": "Diagnóstico de sangrados intermenstruales y posmenopáusicos en Tuxtla Gutiérrez con histeroscopia y ultrasonido.",
+      "keywords": [
+        "sangrado fuera de tiempo tuxtla",
+        "sangrado menopausia chiapas",
+        "hemorragia uterina ginecologo",
+        "manchado marron"
+      ]
     },
-    faqs: [
+    "faqs": [
       {
-        question: "¿Qué significa sangrar después de la menopausia?",
-        answer: "Todo sangrado en la posmenopausia se considera patológico hasta demostrar lo contrario. Requiere revisión prioritaria mediante ecografía e histeroscopia para evaluar el grosor del endometrio.",
-      },
-    ],
+        "question": "¿Qué significa sangrar después de la menopausia?",
+        "answer": "Todo sangrado en la posmenopausia se considera patológico hasta demostrar lo contrario. Requiere revisión prioritaria mediante ecografía e histeroscopia para evaluar el grosor del endometrio."
+      }
+    ]
   },
   {
-    id: "flujo-vaginal-inusual",
-    slug: "flujo-vaginal-inusual",
-    name: "Flujo Vaginal Inusual, Prurito o Mal Olor",
-    category: "ginecologico",
-    colloquialNames: ["Flujo blanco grumoso", "Mal olor íntimo", "Infección vaginal"],
-    description: "Cambio en la coloración (amarillento, verdoso, grisáceo o blanquecino como requesón), consistencia u olor del flujo vaginal, frecuentemente acompañado de comezón y ardor.",
-    urgencyLevel: "moderada",
-    causes: [
+    "id": "flujo-vaginal-inusual",
+    "slug": "flujo-vaginal-inusual",
+    "name": "Flujo Vaginal Inusual, Prurito o Mal Olor",
+    "category": "ginecologico",
+    "colloquialNames": [
+      "Flujo blanco grumoso",
+      "Mal olor íntimo",
+      "Infección vaginal"
+    ],
+    "description": "Cambio en la coloración (amarillento, verdoso, grisáceo o blanquecino como requesón), consistencia u olor del flujo vaginal, frecuentemente acompañado de comezón y ardor.",
+    "urgencyLevel": "moderada",
+    "causes": [
       "Vaginitis por hongos (Candidiasis)",
       "Vaginosis bacteriana por alteración de la flora vaginal",
       "Tricomoniasis u otras infecciones de transmisión sexual",
-      "Cervicitis asociada a VPH o gérmenes oportunistas",
+      "Cervicitis asociada a VPH o gérmenes oportunistas"
     ],
-    alarmSigns: [
+    "alarmSigns": [
       "Olor fétido a pescado",
       "Dolor pélvico bajo asociado o fiebre",
-      "Presencia de ampollas, llagas o verrugas en genitales externos",
+      "Presencia de ampollas, llagas o verrugas en genitales externos"
     ],
-    whyConsult: "Automedicarse óvulos comerciales sin cultivo o exploración favorece la resistencia microbiana e infecciones recurrentes. Una revisión ginecológica identifica la causa precisa.",
-    relatedConditions: [
-      "infecciones-vaginales-recurrentes",
-      "infeccion-vph",
-      "enfermedad-pelvica-inflamatoria",
+    "whyConsult": "Automedicarse óvulos comerciales sin cultivo o exploración favorece la resistencia microbiana e infecciones recurrentes. Una revisión ginecológica identifica la causa precisa.",
+    "relatedConditions": [
+      "cancer-cervicouterino",
+      "infeccion-vph"
     ],
-    image: "/images/sintomas/flujo-vaginal-inusual.webp",
-    seo: {
-      title: "Flujo Vaginal e Infecciones en Tuxtla | Dr. Jorge Albores",
-      description: "Tratamiento eficaz de infecciones vaginales recurrentes y flujo anormal en Tuxtla Gutiérrez, Chiapas.",
-      keywords: ["flujo vaginal tuxtla", "infeccion vaginal recurrente chiapas", "mal olor intimo tratamiento", "candidiasis ginecologo"],
+    "image": "/images/sintomas/flujo-vaginal-inusual.webp",
+    "seo": {
+      "title": "Flujo Vaginal e Infecciones en Tuxtla | Dr. Jorge Albores",
+      "description": "Tratamiento eficaz de infecciones vaginales recurrentes y flujo anormal en Tuxtla Gutiérrez, Chiapas.",
+      "keywords": [
+        "flujo vaginal tuxtla",
+        "infeccion vaginal recurrente chiapas",
+        "mal olor intimo tratamiento",
+        "candidiasis ginecologo"
+      ]
     },
-    faqs: [
+    "faqs": [
       {
-        question: "¿Por qué mis infecciones vaginales regresan cada mes?",
-        answer: "Suele deberse a tratamientos incompletos, desbalances del pH por jabones perfumados, glucemia elevada o no tratar a la pareja cuando es necesario.",
-      },
-    ],
+        "question": "¿Por qué mis infecciones vaginales regresan cada mes?",
+        "answer": "Suele deberse a tratamientos incompletos, desbalances del pH por jabones perfumados, glucemia elevada o no tratar a la pareja cuando es necesario."
+      }
+    ]
   },
   {
-    id: "dolor-pelvico-cronico-o-agudo",
-    slug: "dolor-pelvico-cronico-o-agudo",
-    name: "Dolor Pélvico Crónico o Agudo en el Vientre Bajo",
-    category: "ginecologico",
-    colloquialNames: ["Dolor en el vientre", "Cólico constante en ovarios", "Presión en la pelvis"],
-    description: "Molestia dolorosa persistente (más de 6 meses) o súbita e intensa en la región del abdomen inferior, útero o fosas ilíacas.",
-    urgencyLevel: "alta",
-    causes: [
+    "id": "dolor-pelvico-cronico-o-agudo",
+    "slug": "dolor-pelvico-cronico-o-agudo",
+    "name": "Dolor Pélvico Crónico o Agudo en el Vientre Bajo",
+    "category": "ginecologico",
+    "colloquialNames": [
+      "Dolor en el vientre",
+      "Cólico constante en ovarios",
+      "Presión en la pelvis"
+    ],
+    "description": "Molestia dolorosa persistente (más de 6 meses) o súbita e intensa en la región del abdomen inferior, útero o fosas ilíacas.",
+    "urgencyLevel": "alta",
+    "causes": [
       "Endometriosis pélvica profunda y adherencias",
       "Torsión o rotura de quistes de ovario",
       "Enfermedad pélvica inflamatoria (EPI)",
-      "Miomas uterinos con degeneración o compresión de estructuras",
+      "Miomas uterinos con degeneración o compresión de estructuras"
     ],
-    alarmSigns: [
+    "alarmSigns": [
       "Dolor súbito incapacitante con náuseas o mareo (sospecha de torsión o rotura)",
       "Fiebre mayor a 38 °C con flujo vaginal o dolor al caminar",
-      "Dolor progresivo que no responde a analgésicos convencionales",
+      "Dolor progresivo que no responde a analgésicos convencionales"
     ],
-    whyConsult: "El dolor pélvico no es normal. La alta especialidad en cirugía laparoscópica del Dr. Albores permite diagnosticar y liberar adherencias o focos de endometriosis con mínima invasión.",
-    relatedConditions: [
+    "whyConsult": "El dolor pélvico no es normal. La alta especialidad en cirugía laparoscópica del Dr. Albores permite diagnosticar y liberar adherencias o focos de endometriosis con mínima invasión.",
+    "relatedConditions": [
+      "miomatosis-uterina",
       "endometriosis",
       "quistes-de-ovario",
-      "enfermedad-pelvica-inflamatoria",
+      "sindrome-ovario-poliquistico",
+      "preeclampsia-y-trastornos-hipertensivos"
     ],
-    image: "/images/sintomas/dolor-pelvico.webp",
-    seo: {
-      title: "Dolor Pélvico en Tuxtla Gutiérrez | Dr. Jorge Albores",
-      description: "Diagnóstico y tratamiento por laparoscopia del dolor pélvico y endometriosis en Tuxtla Gutiérrez, Chiapas.",
-      keywords: ["dolor pelvico tuxtla", "endometriosis chiapas laparoscopia", "dolor bajo vientre mujer", "especialista dolor pelvico"],
+    "image": "/images/sintomas/dolor-pelvico.webp",
+    "seo": {
+      "title": "Dolor Pélvico en Tuxtla Gutiérrez | Dr. Jorge Albores",
+      "description": "Diagnóstico y tratamiento por laparoscopia del dolor pélvico y endometriosis en Tuxtla Gutiérrez, Chiapas.",
+      "keywords": [
+        "dolor pelvico tuxtla",
+        "endometriosis chiapas laparoscopia",
+        "dolor bajo vientre mujer",
+        "especialista dolor pelvico"
+      ]
     },
-    faqs: [
+    "faqs": [
       {
-        question: "¿El dolor pélvico constante puede causar infertilidad?",
-        answer: "Sí, cuando es provocado por patologías como endometriosis o enfermedad pélvica inflamatoria, las cuales generan cicatrices que pueden obstruir las trompas de Falopio.",
-      },
-    ],
+        "question": "¿El dolor pélvico constante puede causar infertilidad?",
+        "answer": "Sí, cuando es provocado por patologías como endometriosis o enfermedad pélvica inflamatoria, las cuales generan cicatrices que pueden obstruir las trompas de Falopio."
+      }
+    ]
   },
   {
-    id: "dolor-en-las-relaciones-sexuales",
-    slug: "dolor-en-las-relaciones-sexuales",
-    name: "Dolor Durante las Relaciones Sexuales (Dispareunia)",
-    category: "ginecologico",
-    colloquialNames: ["Molestia al tener intimidad", "Ardor con la penetración", "Dolor profundo en relaciones"],
-    description: "Sensación de dolor, ardor o malestar intenso en la entrada vaginal o en la profundidad pélvica durante o después del coito.",
-    urgencyLevel: "moderada",
-    causes: [
+    "id": "dolor-en-las-relaciones-sexuales",
+    "slug": "dolor-en-las-relaciones-sexuales",
+    "name": "Dolor Durante las Relaciones Sexuales (Dispareunia)",
+    "category": "ginecologico",
+    "colloquialNames": [
+      "Molestia al tener intimidad",
+      "Ardor con la penetración",
+      "Dolor profundo en relaciones"
+    ],
+    "description": "Sensación de dolor, ardor o malestar intenso en la entrada vaginal o en la profundidad pélvica durante o después del coito.",
+    "urgencyLevel": "moderada",
+    "causes": [
       "Focos de endometriosis en ligamentos úterosacros o tabique rectovaginal",
       "Infecciones vaginales o cervicitis activas",
       "Sequedad vaginal por deficiencia estrogénica o lactancia",
-      "Adherencias pélvicas o miomas",
+      "Adherencias pélvicas o miomas"
     ],
-    alarmSigns: [
+    "alarmSigns": [
       "Dolor punzante profundo que persiste horas después del coito",
       "Acompañado de sangrado posterior a las relaciones",
-      "Imposibilidad total de mantener intimidad por el dolor",
+      "Imposibilidad total de mantener intimidad por el dolor"
     ],
-    whyConsult: "La intimidad no debe doler. Identificar la raíz anatómica o inflamatoria devuelve la tranquilidad y salud sexual a la paciente.",
-    relatedConditions: [
-      "endometriosis",
-      "infecciones-vaginales-recurrentes",
+    "whyConsult": "La intimidad no debe doler. Identificar la raíz anatómica o inflamatoria devuelve la tranquilidad y salud sexual a la paciente.",
+    "relatedConditions": [
+      "cancer-cervicouterino",
+      "endometriosis"
     ],
-    image: "/images/sintomas/dolor-relaciones-dispareunia.webp",
-    seo: {
-      title: "Dolor en las Relaciones (Dispareunia) en Tuxtla | Dr. Jorge Albores",
-      description: "Manejo médico de dolor durante las relaciones íntimas y endometriosis en Tuxtla Gutiérrez, Chiapas.",
-      keywords: ["dolor relaciones sexuales tuxtla", "dispareunia ginecologo", "endometriosis dolor intimo", "ardor en intimidad mujer"],
+    "image": "/images/sintomas/dolor-relaciones-dispareunia.webp",
+    "seo": {
+      "title": "Dolor en las Relaciones (Dispareunia) en Tuxtla | Dr. Jorge Albores",
+      "description": "Manejo médico de dolor durante las relaciones íntimas y endometriosis en Tuxtla Gutiérrez, Chiapas.",
+      "keywords": [
+        "dolor relaciones sexuales tuxtla",
+        "dispareunia ginecologo",
+        "endometriosis dolor intimo",
+        "ardor en intimidad mujer"
+      ]
     },
-    faqs: [
+    "faqs": [
       {
-        question: "¿Por qué siento un dolor profundo como una punzada al fondo?",
-        answer: "El dolor profundo en el fondo pélvico es un síntoma muy característico de endometriosis en los ligamentos de sostén del útero, requiriendo valoración especializada.",
-      },
-    ],
+        "question": "¿Por qué siento un dolor profundo como una punzada al fondo?",
+        "answer": "El dolor profundo en el fondo pélvico es un síntoma muy característico de endometriosis en los ligamentos de sostén del útero, requiriendo valoración especializada."
+      }
+    ]
   },
   {
-    id: "menstruaciones-abundantes-o-prolongadas",
-    slug: "menstruaciones-abundantes-o-prolongadas",
-    name: "Menstruaciones Muy Abundantes o Prolongadas (Menorragia)",
-    category: "ginecologico",
-    colloquialNames: ["Reglas muy abundantes", "Sangrado con coágulos grandes", "Periodo dura más de 8 días"],
-    description: "Sangrado menstrual que dura más de 7 u 8 días continuos o con un flujo excesivo que empapa una o más toallas o tampones cada hora durante varias horas seguidas.",
-    urgencyLevel: "alta",
-    causes: [
+    "id": "menstruaciones-abundantes-o-prolongadas",
+    "slug": "menstruaciones-abundantes-o-prolongadas",
+    "name": "Menstruaciones Muy Abundantes o Prolongadas (Menorragia)",
+    "category": "ginecologico",
+    "colloquialNames": [
+      "Reglas muy abundantes",
+      "Sangrado con coágulos grandes",
+      "Periodo dura más de 8 días"
+    ],
+    "description": "Sangrado menstrual que dura más de 7 u 8 días continuos o con un flujo excesivo que empapa una o más toallas o tampones cada hora durante varias horas seguidas.",
+    "urgencyLevel": "alta",
+    "causes": [
       "Miomas uterinos submucosos o intramurales",
       "Pólipos endometriales",
       "Adenomiosis (engrosamiento de la pared del útero)",
-      "Coagulopatías o disfunciones ovulatorias",
+      "Coagulopatías o disfunciones ovulatorias"
     ],
-    alarmSigns: [
+    "alarmSigns": [
       "Expulsión continua de coágulos mayores al tamaño de una moneda",
       "Cansancio extremo, mareo, palidez o fatiga al subir escaleras (anemia)",
-      "Empapar compresas de maternidad en menos de dos horas",
+      "Empapar compresas de maternidad en menos de dos horas"
     ],
-    whyConsult: "Perder tanta sangre en cada periodo conduce a anemia severa y deteriora la energía vital. La histeroscopia de consultorio permite diagnosticar la causa exacta en 20 minutos.",
-    relatedConditions: [
+    "whyConsult": "Perder tanta sangre en cada periodo conduce a anemia severa y deteriora la energía vital. La histeroscopia de consultorio permite diagnosticar la causa exacta en 20 minutos.",
+    "relatedConditions": [
       "miomatosis-uterina",
-      "polipos-endometriales",
-      "sangrado-uterino-anormal",
+      "sindrome-ovario-poliquistico"
     ],
-    image: "/images/sintomas/menstruaciones-abundantes.webp",
-    seo: {
-      title: "Reglas Abundantes y Sangrado Excesivo en Tuxtla | Dr. Jorge Albores",
-      description: "Atención de menorragia, miomas y pólipos causantes de anemia en Tuxtla Gutiérrez por cirujano endoscopista.",
-      keywords: ["menstruacion abundante tuxtla", "coagulos en la regla chiapas", "miomas sangrado ginecologo", "periodos muy largos tratamiento"],
+    "image": "/images/sintomas/menstruaciones-abundantes.webp",
+    "seo": {
+      "title": "Reglas Abundantes y Sangrado Excesivo en Tuxtla | Dr. Jorge Albores",
+      "description": "Atención de menorragia, miomas y pólipos causantes de anemia en Tuxtla Gutiérrez por cirujano endoscopista.",
+      "keywords": [
+        "menstruacion abundante tuxtla",
+        "coagulos en la regla chiapas",
+        "miomas sangrado ginecologo",
+        "periodos muy largos tratamiento"
+      ]
     },
-    faqs: [
+    "faqs": [
       {
-        question: "¿Es normal tener que cambiarme la toalla cada hora?",
-        answer: "No, no es normal. Cambiar toallas o tampones cada hora indica menorragia y requiere estudio ginecológico para detectar miomas o pólipos antes de que cause anemia.",
-      },
-    ],
+        "question": "¿Es normal tener que cambiarme la toalla cada hora?",
+        "answer": "No, no es normal. Cambiar toallas o tampones cada hora indica menorragia y requiere estudio ginecológico para detectar miomas o pólipos antes de que cause anemia."
+      }
+    ]
   },
   {
-    id: "retraso-o-ausencia-del-periodo",
-    slug: "retraso-o-ausencia-del-periodo",
-    name: "Retraso, Irregularidad o Ausencia del Periodo Menstrual (Amenorrea)",
-    category: "ginecologico",
-    colloquialNames: ["Regla irregular", "No me baja", "Se me fue el periodo"],
-    description: "Falta de menstruación durante más de 3 meses consecutivos o ciclos sumamente prolongados y erráticos que superan los 35 o 45 días de separación.",
-    urgencyLevel: "moderada",
-    causes: [
-      "Embarazo inicial",
-      "Síndrome de Ovario Poliquístico (SOP) y resistencia a la insulina",
-      "Alteraciones en la glándula tiroides o niveles altos de prolactina",
-      "Pérdida drástica de peso o estrés físico/emocional severo",
+    "id": "colicos-menstruales-incapacitantes",
+    "slug": "colicos-menstruales-incapacitantes",
+    "name": "Cólicos Menstruales Severos e Incapacitantes (Dismenorrea Severa)",
+    "category": "ginecologico",
+    "colloquialNames": [
+      "Cólicos muy fuertes",
+      "Dolor de regla que no me deja pararme",
+      "Dismenorrea"
     ],
-    alarmSigns: [
-      "Ausencia de menstruación por más de 90 días habiendo descartado embarazo",
-      "Acompañada de salida de leche por los pezones o dolor de cabeza visual",
-      "Aparición repentina de acné severo y vello en rostro y abdomen",
-    ],
-    whyConsult: "La regularidad menstrual es un termómetro directo del equilibrio hormonal femenino y la reserva ovárica. El estudio ultrasonográfico y perfil hormonal orientan el tratamiento adecuado.",
-    relatedConditions: [
-      "sindrome-ovario-poliquistico",
-      "amenorrea-y-oligomenorrea",
-    ],
-    image: "/images/sintomas/retraso-menstrual.webp",
-    seo: {
-      title: "Reglas Irregulares y Retraso Menstrual en Tuxtla | Dr. Jorge Albores",
-      description: "Diagnóstico y regulación de ciclos menstruales, SOP y amenorrea en Tuxtla Gutiérrez, Chiapas.",
-      keywords: ["retraso menstrual tuxtla", "sop ovarios poliquisticos chiapas", "no me baja que hacer", "periodo irregular ginecologo"],
-    },
-    faqs: [
-      {
-        question: "¿Por qué el ovario poliquístico causa retrasos?",
-        answer: "En el SOP los folículos ováricos no maduran lo suficiente para liberar un óvulo (anovulación), impidiendo la señal hormonal que desencadena la menstruación oportuna.",
-      },
-    ],
-  },
-  {
-    id: "colicos-menstruales-incapacitantes",
-    slug: "colicos-menstruales-incapacitantes",
-    name: "Cólicos Menstruales Severos e Incapacitantes (Dismenorrea Severa)",
-    category: "ginecologico",
-    colloquialNames: ["Cólicos muy fuertes", "Dolor de regla que no me deja pararme", "Dismenorrea"],
-    description: "Dolor abdominal espasmódico e intenso que inicia antes o durante la menstruación, impidiendo levantarse de la cama o realizar actividades laborales o escolares.",
-    urgencyLevel: "alta",
-    causes: [
+    "description": "Dolor abdominal espasmódico e intenso que inicia antes o durante la menstruación, impidiendo levantarse de la cama o realizar actividades laborales o escolares.",
+    "urgencyLevel": "alta",
+    "causes": [
       "Endometriosis",
       "Adenomiosis en la pared del miometrio",
       "Miomas uterinos",
-      "Estenosis cervical u obstrucciones anatómicas",
+      "Estenosis cervical u obstrucciones anatómicas"
     ],
-    alarmSigns: [
+    "alarmSigns": [
       "Dolor que empeora con cada año que pasa en lugar de mejorar",
       "Cólicos acompañados de náuseas, vómito, diarrea o desmayo",
-      "Falta total de alivio con antiinflamatorios estándar",
+      "Falta total de alivio con antiinflamatorios estándar"
     ],
-    whyConsult: "Normalizar el dolor menstrual extremo es un error frecuente. La dismenorrea severa es la principal manifestación de endometriosis, la cual debe tratarse para preservar la fertilidad.",
-    relatedConditions: [
-      "dismenorrea-severa",
-      "endometriosis",
+    "whyConsult": "Normalizar el dolor menstrual extremo es un error frecuente. La dismenorrea severa es la principal manifestación de endometriosis, la cual debe tratarse para preservar la fertilidad.",
+    "relatedConditions": [
       "miomatosis-uterina",
+      "endometriosis",
+      "quistes-de-ovario"
     ],
-    image: "/images/sintomas/colicos-severos.webp",
-    seo: {
-      title: "Cólicos Menstruales Severos en Tuxtla | Dr. Jorge Albores",
-      description: "Alivio y diagnóstico de dismenorrea severa y endometriosis en Tuxtla Gutiérrez por cirujano endoscopista.",
-      keywords: ["colicos menstruales fuertes tuxtla", "dismenorrea tratamiento chiapas", "dolor de regla insoportable", "endometriosis colicos"],
+    "image": "/images/sintomas/colicos-severos.webp",
+    "seo": {
+      "title": "Cólicos Menstruales Severos en Tuxtla | Dr. Jorge Albores",
+      "description": "Alivio y diagnóstico de dismenorrea severa y endometriosis en Tuxtla Gutiérrez por cirujano endoscopista.",
+      "keywords": [
+        "colicos menstruales fuertes tuxtla",
+        "dismenorrea tratamiento chiapas",
+        "dolor de regla insoportable",
+        "endometriosis colicos"
+      ]
     },
-    faqs: [
+    "faqs": [
       {
-        question: "¿Es normal que el cólico me impida ir a trabajar o a la escuela?",
-        answer: "Definitivamente no. El dolor menstrual que incapacita no es normal y es una señal clínica que obliga a descartar endometriosis o adenomiosis.",
-      },
-    ],
-  },
-  {
-    id: "sensacion-de-bulto-o-peso-en-la-vagina",
-    slug: "sensacion-de-bulto-o-peso-en-la-vagina",
-    name: "Sensación de Bulto, Presión o Peso en la Zona Vaginal (Prolapso)",
-    category: "ginecologico",
-    colloquialNames: ["Vejiga caída", "Matriz caída", "Bulto en la entrada de la vagina"],
-    description: "Percepción de que algo desciende o se asoma por la abertura vaginal, acompañado de sensación de pesadez que se acentúa al estar de pie mucho tiempo o al toser.",
-    urgencyLevel: "moderada",
-    causes: [
-      "Debilitamiento de los músculos del suelo pélvico (partos múltiples o instrumentados)",
-      "Descenso de la vejiga (cistocele), útero (histerocele) o recto (rectocele)",
-      "Aumento crónico de la presión abdominal (obesidad, tos crónica, estreñimiento)",
-    ],
-    alarmSigns: [
-      "Bulto visible o palpable que sobresale fuera de los labios vaginales",
-      "Dificultad o necesidad de empujar el bulto con los dedos para poder orinar",
-      "Úlceras o sangrado en la mucosa vaginal protruida por fricción con la ropa",
-    ],
-    whyConsult: "El prolapso de órganos pélvicos reduce sensiblemente la calidad de vida de la mujer. Existen opciones conservadoras y quirúrgicas de mínima invasión para corregirlo eficazmente.",
-    relatedConditions: [
-      "prolapso-organos-pelvicos",
-    ],
-    image: "/images/sintomas/sensacion-peso-vaginal.webp",
-    seo: {
-      title: "Vejiga o Matriz Caída (Prolapso) en Tuxtla | Dr. Jorge Albores",
-      description: "Tratamiento de prolapso de órganos pélvicos y suelo pélvico en Tuxtla Gutiérrez, Chiapas.",
-      keywords: ["vejiga caida tuxtla", "matriz caida ginecologo", "prolapso genital chiapas", "cirugia suelo pelvico"],
-    },
-    faqs: [
-      {
-        question: "¿El prolapso siempre requiere cirugía?",
-        answer: "No en grados leves (grados 1 y 2), donde los ejercicios de suelo pélvico y cambios de hábitos pueden ser suficientes. En grados moderados a avanzados, la corrección quirúrgica restablece la anatomía normal.",
-      },
-    ],
-  },
-  {
-    id: "perdida-involuntaria-de-orina",
-    slug: "perdida-involuntaria-de-orina",
-    name: "Pérdida Involuntaria de Orina (Incontinencia Urinaria Femenina)",
-    category: "ginecologico",
-    colloquialNames: ["Se me sale la pipí al toser", "Incontinencia urinaria", "Escape de orina"],
-    description: "Escape involuntario de orina al realizar esfuerzos cotidianos como toser, reír, estornudar o levantar objetos (esfuerzo), o necesidad imperiosa e incontrolable de orinar (urgencia).",
-    urgencyLevel: "moderada",
-    causes: [
-      "Hipermovilidad uretral por daño en los tejidos de soporte tras el parto",
-      "Disfunción del esfínter uretral",
-      "Hiperactividad del músculo detrusor de la vejiga",
-      "Infecciones urinarias recurrentes",
-    ],
-    alarmSigns: [
-      "Necesidad constante de usar protectores o pañales durante el día",
-      "Incapacidad total de llegar al baño a tiempo",
-      "Asociada a dolor, sangre en la orina o ardor intenso",
-    ],
-    whyConsult: "La incontinencia urinaria no es un proceso normal del envejecimiento ni debe resignarse a sobrellevarse en silencio. Hay soluciones terapéuticas efectivas y definitivas.",
-    relatedConditions: [
-      "incontinencia-urinaria-femenina",
-    ],
-    image: "/images/sintomas/incontinencia-urinaria.webp",
-    seo: {
-      title: "Incontinencia Urinaria en Mujeres en Tuxtla | Dr. Jorge Albores",
-      description: "Diagnóstico y tratamiento integral de la incontinencia urinaria de esfuerzo en Tuxtla Gutiérrez, Chiapas.",
-      keywords: ["incontinencia urinaria mujer tuxtla", "escape de orina al toser", "ginecologo suelo pelvico chiapas", "vejiga hiperactiva tratamiento"],
-    },
-    faqs: [
-      {
-        question: "¿La incontinencia de esfuerzo se puede curar?",
-        answer: "Sí, mediante rehabilitación de suelo pélvico en fases iniciales, o mediante colocación de cintas suburetrales libres de tensión con técnicas de mínima invasión.",
-      },
-    ],
-  },
-  {
-    id: "molestias-o-ardor-al-orinar",
-    slug: "molestias-o-ardor-al-orinar",
-    name: "Molestias, Ardor o Dolor al Orinar (Disuria)",
-    category: "ginecologico",
-    colloquialNames: ["Mal de orín", "Ardor al hacer pipí", "Ganas constantes de orinar"],
-    description: "Sensación quemante o dolorosa durante la micción, frecuentemente con aumento en la frecuencia y sensación de vaciamiento vesical incompleto.",
-    urgencyLevel: "moderada",
-    causes: [
-      "Cistitis bacteriana o infección de vías urinarias bajas",
-      "Uretritis o cervicitis por gérmenes de transmisión sexual",
-      "Irritación química por jabones íntimos",
-      "Atrofia urogenital por deficiencia de estrógenos",
-    ],
-    alarmSigns: [
-      "Presencia de sangre visible en la orina (hematuria)",
-      "Fiebre, escalofríos y dolor en la espalda baja o flancos (sospecha de pielonefritis)",
-      "Incapacidad para vaciar la vejiga",
-    ],
-    whyConsult: "Las infecciones urinarias recurrentes en la mujer requieren estudio ginecológico y urocultivo con antibiograma para erradicar la bacteria causal sin generar resistencia.",
-    relatedConditions: [
-      "infecciones-vaginales-recurrentes",
-      "incontinencia-urinaria-femenina",
-    ],
-    image: "/images/sintomas/ardor-al-orinar.webp",
-    seo: {
-      title: "Ardor al Orinar e Infecciones Urinarias en Tuxtla | Dr. Jorge Albores",
-      description: "Atención de cistitis y mal de orín recurrente en la mujer en Tuxtla Gutiérrez con el Dr. Jorge Albores.",
-      keywords: ["ardor al orinar mujer tuxtla", "mal de orin ginecologo", "cistitis tratamiento chiapas", "infeccion de orina"],
-    },
-    faqs: [
-      {
-        question: "¿Por qué me dan infecciones de orina tan seguido después de tener intimidad?",
-        answer: "La uretra femenina es corta y durante el coito las bacterias del área perianal pueden ascender a la vejiga. Orinar inmediatamente después de la relación sexual es una medida preventiva fundamental.",
-      },
-    ],
-  },
-  {
-    id: "nauseas-y-vomitos-excesivos-en-embarazo",
-    slug: "nauseas-y-vomitos-excesivos-en-embarazo",
-    name: "Náuseas y Vómitos Excesivos en el Embarazo (Hiperémesis Gravídica)",
-    category: "embarazo",
-    colloquialNames: ["Vómito incontrolable en el embarazo", "Ascos extremos", "Hiperémesis"],
-    description: "Vómitos continuos que impiden tolerar alimentos o líquidos por vía oral, causando pérdida de peso corporal, deshidratación y desequilibrio electrolítico en la gestante.",
-    urgencyLevel: "alta",
-    causes: [
-      "Elevación acelerada de la hormona gonadotropina coriónica humana (hCG)",
-      "Embarazo múltiple (gemelar) o enfermedad trofoblástica",
-      "Sensibilidad hormonal gástrica",
-    ],
-    alarmSigns: [
-      "Incapacidad de retener líquidos durante más de 12 horas consecutivas",
-      "Mareos al ponerse de pie, orina muy oscura y escasa",
-      "Pérdida de más del 5% del peso previo al embarazo",
-    ],
-    whyConsult: "La deshidratación materna compromete tanto la salud de la madre como el aporte de nutrientes al feto. Requiere manejo médico oportuno y monitoreo ecográfico.",
-    relatedConditions: [
-      "embarazo-de-alto-riesgo",
-      "embarazo-multiple",
-    ],
-    image: "/images/sintomas/nauseas-embarazo.webp",
-    seo: {
-      title: "Náuseas y Vómitos Severos en el Embarazo en Tuxtla | Dr. Jorge Albores",
-      description: "Atención especializada de hiperémesis gravídica y control prenatal en Tuxtla Gutiérrez, Chiapas.",
-      keywords: ["vomito en el embarazo tuxtla", "hiperemesis gravidica tratamiento", "nauseas embarazo ginecologo", "deshidratacion embarazo chiapas"],
-    },
-    faqs: [
-      {
-        question: "¿Cuándo dejan de ser normales las náuseas del embarazo?",
-        answer: "Son normales si permiten ingerir alimentos y agua. Dejan de ser normales cuando vomitas todo lo que tomas, pierdes peso o te sientes débil y deshidratada.",
-      },
-    ],
-  },
-  {
-    id: "contracciones-tempranas-o-dolor-abdominal",
-    slug: "contracciones-tempranas-o-dolor-abdominal",
-    name: "Contracciones Tempranas, Dolor Abdominal o Salida de Líquido en el Embarazo",
-    category: "embarazo",
-    colloquialNames: ["Dolores antes de tiempo", "Vientre duro en el embarazo", "Pérdida de líquido o sangre en gestación"],
-    description: "Endurecimiento doloroso y rítmico del vientre antes de la semana 37, dolor en bajo vientre o espalda baja, y pérdida de líquido transparente o sangre por la vagina.",
-    urgencyLevel: "urgencia_inmediata",
-    causes: [
-      "Amenaza de parto pretérmino",
-      "Ruptura prematura de membranas amnióticas",
-      "Infecciones urinarias o cervicovaginales no detectadas",
-      "Desprendimiento prematuro de placenta o placenta previa",
-    ],
-    alarmSigns: [
-      "Más de 4 contracciones (panza dura) en una hora antes de la semana 37",
-      "Salida de líquido transparente abundante y continuo por la vagina (romper fuente)",
-      "Sangrado vaginal fresco de color rojo rutilante",
-      "Disminución drástica de los movimientos del bebé",
-    ],
-    whyConsult: "Cualquiera de estos signos representa una emergencia obstétrica que debe valorarse de inmediato por el Dr. Jorge Albores o en el área de urgencias para proteger la vida fetal.",
-    relatedConditions: [
-      "amenaza-de-aborto-y-parto-pretermino",
-      "preeclampsia-y-trastornos-hipertensivos",
-      "embarazo-ectopico",
-      "placenta-previa",
-      "restriccion-crecimiento-intrauterino",
-    ],
-    image: "/images/sintomas/contracciones-tempranas.webp",
-    seo: {
-      title: "Urgencias Obstétricas y Contracciones Tempranas | Dr. Jorge Albores",
-      description: "Atención inmediata de contracciones antes de tiempo, pérdida de líquido y sangrado en el embarazo en Tuxtla Gutiérrez.",
-      keywords: ["contracciones antes de tiempo tuxtla", "urgencias obstetricas chiapas", "salida de liquido embarazo", "amenaza parto prematuro"],
-    },
-    faqs: [
-      {
-        question: "¿Qué número debo marcar ante una urgencia de embarazo?",
-        answer: "El Dr. Jorge Humberto Albores cuenta con línea directa de urgencias obstétricas al teléfono 961 249 6398 para orientación y recepción hospitalaria inmediata.",
-      },
-    ],
-  },
+        "question": "¿Es normal que el cólico me impida ir a trabajar o a la escuela?",
+        "answer": "Definitivamente no. El dolor menstrual que incapacita no es normal y es una señal clínica que obliga a descartar endometriosis o adenomiosis."
+      }
+    ]
+  }
 ];

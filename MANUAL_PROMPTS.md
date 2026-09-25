@@ -30,7 +30,7 @@ Instrucciones generales de color y estilo:
 
 ---
 
-## 🩺 SECCIÓN 1: PROMPTS PARA ENFERMEDADES GINECOLÓGICAS, OBSTÉTRICAS Y MAMARIAS (30)
+## 🩺 SECCIÓN 1: PROMPTS PARA ENFERMEDADES GINECOLÓGICAS, OBSTÉTRICAS Y MAMARIAS (10 PRINCIPALES)
 
 ### 1. Cáncer de Mama (`public/images/enfermedades/cancer-de-mama.webp`)
 ```text
@@ -65,40 +65,7 @@ Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
 Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, nudity, gore.
 ```
 
-### 4. Mastopatía Fibroquística (`public/images/enfermedades/mastopatia-fibroquistica.webp`)
-```text
-Educational 3D anatomical visual of dense fibroglandular breast tissue showing areas of fibrous stromal proliferation and tiny benign microcysts, medical pathology textbook style.
-
-Lighting: Bright laboratory illumination, soft organic depth.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Cream (#FAF7F5), Silver.
-Composition: Cross-sectional anatomical overview of dense parenchymal tissue.
-Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, nudity.
-```
-
-### 5. Papiloma Intraductal (`public/images/enfermedades/papiloma-intraductal.webp`)
-```text
-3D precision medical render of a lactiferous milk duct cross-section showing a small arborescent papillary benign growth within the ductal lumen, clean micro-anatomical illustration.
-
-Lighting: Focused clinical micro-spotlight highlighting the interior ductal epithelium.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Warm Amber, Clinical White.
-Composition: Longitudinal micro-cross-section of a mammary duct.
-Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, nudity.
-```
-
-### 6. Mastitis y Absceso Mamario (`public/images/enfermedades/mastitis.webp`)
-```text
-3D anatomical illustration of a mammary glandular lobule presenting localized hyperemic inflammatory response within ductal walls, educational clinical pathology rendering, clean and non-graphic.
-
-Lighting: Warm clinical lighting with soft subtle focal illumination on the inflamed lobule.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Warm Peach, Clinical White.
-Composition: Focused lobular anatomical view, schematic and dignified.
-Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, pus, gore, nudity, graphic content.
-```
-
-### 7. Cáncer Cervicouterino (`public/images/enfermedades/cancer-cervicouterino.webp`)
+### 4. Cáncer Cervicouterino (`public/images/enfermedades/cancer-cervicouterino.webp`)
 ```text
 Aesthetic medical illustration of the uterine cervix showing the transformation zone and squamocolumnar junction with highlighted cellular dysplastic remodeling, educational oncological diagram style.
 
@@ -109,7 +76,7 @@ Suffixes: realistic medical CGI, 8k, educational diagram style --ar 16:9 --v 6.0
 Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, explicit nudity, graphic content.
 ```
 
-### 8. Virus del Papiloma Humano (VPH) (`public/images/enfermedades/vph.webp`)
+### 5. Virus del Papiloma Humano (VPH) (`public/images/enfermedades/vph.webp`)
 ```text
 3D scientific molecular visualization of the icosahedral Human Papillomavirus (HPV) viral capsid in high resolution, floating in a clean microscopic biomedical background with soft depth of field.
 
@@ -120,7 +87,7 @@ Suffixes: realistic biomedical CGI, 8k, scientific render, unreal engine 5 --ar 
 Negative Prompt: hologram, sci-fi, neon, cartoon, text, words, watermark, signature, blood.
 ```
 
-### 9. Miomatosis Uterina (`public/images/enfermedades/miomatosis-uterina.webp`)
+### 6. Miomatosis Uterina (`public/images/enfermedades/miomatosis-uterina.webp`)
 ```text
 3D anatomical cross-section render of the human uterus showing benign intramural and subserosal leiomyoma nodules within the smooth myometrial wall, clean medical textbook illustration.
 
@@ -131,18 +98,7 @@ Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
 Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, graphic nudity.
 ```
 
-### 10. Pólipos Endometriales (`public/images/enfermedades/polipos-endometriales.webp`)
-```text
-High-precision 3D illustration of the uterine cavity showing a small vascularized endometrial polyp projecting into the lumen from the mucosal lining, sterile hysteroscopy perspective.
-
-Lighting: Clear endoluminal surgical light with soft diffuse reflection on mucosal tissue.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Warm Blush, Clinical White.
-Composition: Longitudinal internal perspective of the endometrial cavity.
-Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, gore.
-```
-
-### 11. Endometriosis y Adenomiosis (`public/images/enfermedades/endometriosis.webp`)
+### 7. Endometriosis y Adenomiosis (`public/images/enfermedades/endometriosis.webp`)
 ```text
 3D anatomical diagram of the female pelvic organs and retroperitoneal spaces illustrating ectopic endometrial tissue foci and adenomyotic myometrial remodeling, educational clinical illustration.
 
@@ -153,7 +109,7 @@ Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
 Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, explicit nudity.
 ```
 
-### 12. Quistes Ováricos y Tumores Benignos (`public/images/enfermedades/quistes-de-ovario.webp`)
+### 8. Quistes Ováricos y Tumores Benignos (`public/images/enfermedades/quistes-de-ovario.webp`)
 ```text
 3D medical cross-section render of a human ovary showing a smooth follicular cyst alongside normal ovarian stroma and developing follicles, clean reproductive endocrinology illustration.
 
@@ -164,7 +120,7 @@ Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
 Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, nudity.
 ```
 
-### 13. Síndrome de Ovario Poliquístico (SOP) (`public/images/enfermedades/sop.webp`)
+### 9. Síndrome de Ovario Poliquístico (SOP) (`public/images/enfermedades/sop.webp`)
 ```text
 Aesthetic 3D anatomical illustration of an enlarged ovary with multiple small subcortical peripheral follicles arranged in a characteristic string-of-pearls pattern, clean medical textbook diagram.
 
@@ -175,106 +131,7 @@ Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
 Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, nudity.
 ```
 
-### 14. Hiperplasia Endometrial (`public/images/enfermedades/hiperplasia-endometrial.webp`)
-```text
-3D anatomical cross-section of the uterine wall comparing normal endometrial thickness to a thickened hyperplastic glandular endometrium, clear comparative medical textbook style.
-
-Lighting: Clean studio lighting with clear demarcation between mucosal and muscular layers.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Velvet Plum, Clinical White.
-Composition: Symmetrical comparative cross-section of uterine tissue layers.
-Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, nudity.
-```
-
-### 15. Prolapso de Órganos Pélvicos (`public/images/enfermedades/prolapso-pelvico.webp`)
-```text
-3D anatomical diagram of the female pelvic floor showing the levator ani muscle sling, endopelvic fascia and ligamentous suspension supports, clean biomechanical anatomy illustration.
-
-Lighting: Clear educational lighting with subtle warm accents along supportive fascial bands.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Neutral Sand, Clinical White.
-Composition: Midsagittal schematic pelvic floor model, textbook diagram framing.
-Suffixes: realistic medical CGI, 8k, educational diagram style --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, explicit nudity.
-```
-
-### 16. Incontinencia Urinaria Femenina (`public/images/enfermedades/incontinencia-urinaria.webp`)
-```text
-Aesthetic 3D medical illustration of the bladder neck, female urethra and pubourethral ligamentous support mechanism, clean urogyn anatomy textbook illustration.
-
-Lighting: Clean, bright luxury medical studio lighting, soft clinical shadows.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Ice Blue, Clinical White.
-Composition: Focused sagittal cross-section of the lower urinary tract and urethral sphincter.
-Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, nudity.
-```
-
-### 17. Infecciones Vaginales Recurrentes (`public/images/enfermedades/infecciones-vaginales.webp`)
-```text
-Microscopic 3D scientific visualization of the vaginal mucosal microenvironment showing protective Lactobacillus crispatus rods alongside localized microflora imbalance, clean medical microbiology visual.
-
-Lighting: Soft darkfield biomedical illumination with warm plum and blush luminescence.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Pearl White, Soft Cyan.
-Composition: Centered scientific cellular landscape with shallow depth of field.
-Suffixes: realistic biomedical CGI, 8k, scientific render, unreal engine 5 --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, nudity.
-```
-
-### 18. Enfermedad Pélvica Inflamatoria (EPI) (`public/images/enfermedades/epi.webp`)
-```text
-3D anatomical illustration of the upper genital tract (uterus, fallopian tubes and fimbriae) showing localized tubal hyperemia and edema, clean gynecological pathology textbook style.
-
-Lighting: Focused studio spotlighting on the fallopian tube and adnexal architecture.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Coral Blush, Clinical White.
-Composition: Symmetrical coronal overview of the internal female reproductive tract.
-Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, gore, nudity.
-```
-
-### 19. Amenorrea y Oligomenorrea (`public/images/enfermedades/amenorrea.webp`)
-```text
-Aesthetic 3D medical diagram illustrating the hypothalamic-pituitary-ovarian hormonal axis, showing neuroendocrine signaling pathways with subtle luminous connecting lines, endocrinology textbook style.
-
-Lighting: Clean modern medical studio lighting, soft depth gradients.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Warm Gold, Clinical White.
-Composition: Vertical schematic flow from brain pituitary gland to ovarian target.
-Suffixes: realistic medical CGI, 8k, educational diagram style --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, nudity.
-```
-
-### 20. Sangrado Uterino Anormal (SUA) (`public/images/enfermedades/sangrado-anormal.webp`)
-```text
-3D anatomical illustration of the uterine cavity highlighting the endometrial microvascular network according to the FIGO PALM-COEIN classification framework, clean educational visual.
-
-Lighting: Soft diffuse clinical illumination along the uterine lining.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Crimson, Pure White.
-Composition: Longitudinal cross-section of the endometrial cavity and subendometrial vessels.
-Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, pools of blood, gore, nudity.
-```
-
-### 21. Dismenorrea Severa (`public/images/enfermedades/dismenorrea-severa.webp`)
-```text
-3D medical rendering of uterine myometrial muscle fibers showing coordinated contractile tension and localized prostaglandin-mediated vascular tone, scientific medical illustration.
-
-Lighting: Balanced clinical studio lighting, subtle shadow contouring.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Warm Cream (#FAF7F5), Silver.
-Composition: Close-up cross-section of myometrial smooth muscle architecture.
-Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, nudity.
-```
-
-### 22. Embarazo de Alto Riesgo (`public/images/enfermedades/embarazo-alto-riesgo.webp`)
-```text
-High-fidelity 3D anatomical render of a mature placenta showing the fetal and maternal vascular interface with umbilical cord insertion and chorionic plate vessels, maternal-fetal medicine textbook style.
-
-Lighting: Warm luxury clinical lighting with soft golden highlights on placental vessels.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Warm Amber, Clinical White.
-Composition: Detailed oblique view of placental vascular anatomy and umbilical vessels.
-Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, nudity, gore.
-```
-
-### 23. Preeclampsia y Trastornos Hipertensivos (`public/images/enfermedades/preeclampsia.webp`)
+### 10. Preeclampsia y Trastornos Hipertensivos del Embarazo (`public/images/enfermedades/preeclampsia.webp`)
 ```text
 3D biomedical visualization of uterine spiral arteries undergoing incomplete physiological remodeling with high-resistance vascular flow, maternal-fetal pathology illustration.
 
@@ -282,83 +139,6 @@ Lighting: Clean studio lighting with soft directional accent on arterial wall th
 Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Rose Gold, Clinical White.
 Composition: Microscopic cross-section of decidual spiral arterioles and trophoblast cells.
 Suffixes: realistic biomedical CGI, 8k, scientific render --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, nudity.
-```
-
-### 24. Diabetes Gestacional (`public/images/enfermedades/diabetes-gestacional.webp`)
-```text
-3D medical illustration representing glucose transport across placental syncytiotrophoblast microvilli via GLUT transporters, clinical metabolic endocrinology concept.
-
-Lighting: Bright clean scientific lighting with translucent cellular membranes.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Soft Teal, Clinical White.
-Composition: Microscopic cell membrane cross-section showing glucose molecule receptors.
-Suffixes: realistic biomedical CGI, 8k, scientific render --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, cartoon.
-```
-
-### 25. Amenaza de Aborto y Parto Pretérmino (`public/images/enfermedades/parto-pretermino.webp`)
-```text
-3D anatomical illustration of the uterine cervix showing internal os status and cervical canal length (cervicometry concept), obstetrics ultrasound anatomy textbook style.
-
-Lighting: Clean clinical studio illumination, soft depth shadows.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Neutral Sand, Clinical White.
-Composition: Sagittal cross-section view of the lower uterine segment and internal os.
-Suffixes: realistic medical CGI, 8k, educational diagram style --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, gore, nudity.
-```
-
-### 26. Pérdida Recurrente del Embarazo (`public/images/enfermedades/perdida-recurrente.webp`)
-```text
-Photorealistic empathetic scene of a doctor's consultation desk with a detailed anatomical uterine diagram, medical genetics folder, and a small stethoscope on clean warm oak surface, dignified compassionate care.
-
-Lighting: Warm morning daylight through consultation room window, soft natural shadows.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Natural Oak Wood, Cream.
-Composition: Editorial still-life perspective across the physician's consultation desk.
-Suffixes: high-fidelity clinical photography, depth of field, 8k --ar 16:9 --v 6.0
-Negative Prompt: cartoon, CGI, text, watermark, signature, blood, sad faces, tragedy, tears.
-```
-
-### 27. Embarazo Ectópico (`public/images/enfermedades/embarazo-ectopico.webp`)
-```text
-3D anatomical cross-section illustration of the ampullary portion of a fallopian tube with an early ectopic gestational sac, clean emergency gynecology textbook visual, non-graphic.
-
-Lighting: Focused clinical spotlighting with soft subtle illumination on the tubal wall.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Warm Blush, Clinical White.
-Composition: Close-up cross-section of the fallopian tube lumen and gestational implant.
-Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, gore, rupture, nudity.
-```
-
-### 28. Placenta Previa (`public/images/enfermedades/placenta-previa.webp`)
-```text
-3D anatomical sagittal illustration of the pregnant uterus demonstrating placenta previa covering the internal cervical os, clear maternal-fetal anatomy textbook diagram.
-
-Lighting: Clean studio illumination distinguishing placental tissue from myometrial wall.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Warm Peach, Clinical White.
-Composition: Midsagittal view of the gravid uterus, lower uterine segment and cervix.
-Suffixes: realistic medical CGI, 8k, educational diagram style --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, nudity, gore.
-```
-
-### 29. Restricción del Crecimiento Intrauterino (RCIU) (`public/images/enfermedades/rciu.webp`)
-```text
-3D medical rendering of umbilical artery and middle cerebral artery Doppler waveform vectors surrounding a stylized fetal biometry diagram, maternal-fetal hemodynamics illustration.
-
-Lighting: High-contrast clinical studio lighting with soft luminous Doppler flow streamlines.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Crimson, Cobalt Silver.
-Composition: Symmetrical medical diagram centered on umbilical cord hemodynamics.
-Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
-Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, nudity.
-```
-
-### 30. Embarazo Múltiple (Gemelar) (`public/images/enfermedades/embarazo-gemelar.webp`)
-```text
-3D anatomical illustration of a diamniotic dichorionic twin pregnancy showing twin gestational sacs separated by an intervening chorionic dividing membrane, clear obstetrical textbook style.
-
-Lighting: Warm gentle maternal-fetal studio lighting with translucent amniotic sacs.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Warm Gold, Clinical White.
-Composition: Coronal overview of the gravid uterus with twin gestational sacs.
-Suffixes: realistic medical CGI, 8k, photorealistic textures --ar 16:9 --v 6.0
 Negative Prompt: hologram, sci-fi, neon, text, words, watermark, signature, blood, nudity.
 ```
 
@@ -489,7 +269,7 @@ Negative Prompt: blood, gore, open wounds, flesh, text, watermark, cartoon, sci-
 
 ---
 
-## 🩹 SECCIÓN 3: PROMPTS PARA SÍNTOMAS Y MOTIVOS DE CONSULTA GINECO-OBSTÉTRICOS Y MAMARIOS (18)
+## 🩹 SECCIÓN 3: PROMPTS PARA SÍNTOMAS Y MOTIVOS DE CONSULTA GINECO-OBSTÉTRICOS Y MAMARIOS (10 PRINCIPALES)
 
 ### 1. Bolita o Bulto Palpable en la Mama o Axila (`public/images/sintomas/bolita-nodulo-mama.webp`)
 ```text
@@ -535,29 +315,7 @@ Suffixes: realistic clinical photography, high-fidelity textures, 8k --ar 16:9 -
 Negative Prompt: cartoon, text, watermark, signature, CGI, nudity, exposed breasts, underwear.
 ```
 
-### 5. Cambios en la Piel del Seno (Piel de Naranja, Enrojecimiento) (`public/images/sintomas/piel-naranja-mama.webp`)
-```text
-Close-up photorealistic shot of an open medical textbook on breast health and lymphatics resting on a clean wooden desk, with a specialist's reading glasses and stethoscope placed next to detailed anatomical charts, academic and clinical approach.
-
-Lighting: Warm library study lighting with soft desk lamp glow.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Warm Oak Wood, Cream Paper.
-Composition: Top-down diagonal still life on the clinical study desk.
-Suffixes: high-fidelity clinical photography, depth of field, 8k --ar 16:9 --v 6.0
-Negative Prompt: cartoon, CGI, text, watermark, signature, gruesome skin, open lesions, nudity.
-```
-
-### 6. Asimetría Mamaria o Cambio Rápido de Tamaño (`public/images/sintomas/asimetria-mamaria.webp`)
-```text
-Photorealistic shot of a woman trying on a tailored blazer in front of a dressing mirror, smoothing down the lapel while looking with slight concern at the garment's fit across the chest, fully clothed, dignified lifestyle framing.
-
-Lighting: Soft warm boutique dressing room lighting.
-Color Palette: Brand Deep Wine (#653A57) jacket, Soft Rose (#E8B7B7), Warm Cream, Neutral Ivory.
-Composition: Medium three-quarter profile facing the mirror.
-Suffixes: realistic clinical photography, high-fidelity textures, 8k --ar 16:9 --v 6.0
-Negative Prompt: cartoon, text, watermark, signature, CGI, nudity, exposed breasts, underwear.
-```
-
-### 7. Sangrado Vaginal Anormal o Manchado Intermenstrual (`public/images/sintomas/sangrado-vaginal-anormal.webp`)
+### 5. Sangrado Vaginal Anormal o Manchado Intermenstrual (`public/images/sintomas/sangrado-vaginal-anormal.webp`)
 ```text
 Photorealistic photo of an adult woman sitting at a clean minimalist home office desk, looking with a concerned expression at her monthly digital calendar on a tablet while gently resting a hand on her lower abdomen, fully clothed in cozy sweater.
 
@@ -568,7 +326,7 @@ Suffixes: realistic clinical photography, high-fidelity textures, 8k --ar 16:9 -
 Negative Prompt: cartoon, text, watermark, signature, CGI, blood, bodily fluids, graphic content.
 ```
 
-### 8. Flujo Vaginal Inusual, Prurito o Mal Olor (`public/images/sintomas/flujo-vaginal-inusual.webp`)
+### 6. Flujo Vaginal Inusual, Prurito o Mal Olor (`public/images/sintomas/flujo-vaginal-inusual.webp`)
 ```text
 Photorealistic image of a woman sitting on the edge of a comfortable sofa holding an unopened box of prescribed feminine probiotics and a glass of pure water, reflecting health awareness, discreet home interior.
 
@@ -579,7 +337,7 @@ Suffixes: realistic clinical photography, high-fidelity textures, 8k --ar 16:9 -
 Negative Prompt: cartoon, text, watermark, signature, CGI, nudity, discharge, graphic content.
 ```
 
-### 9. Dolor Pélvico Crónico o Agudo en el Vientre Bajo (`public/images/sintomas/dolor-pelvico.webp`)
+### 7. Dolor Pélvico Crónico o Agudo en el Vientre Bajo (`public/images/sintomas/dolor-pelvico.webp`)
 ```text
 Photorealistic photo of a woman sitting curled gently on a plush armchair, resting a warm ceramic mug and one hand against her lower abdomen with a subtle wince of discomfort, comforting living room atmosphere.
 
@@ -590,7 +348,7 @@ Suffixes: realistic clinical photography, high-fidelity textures, 8k --ar 16:9 -
 Negative Prompt: cartoon, text, watermark, signature, CGI, nudity, agony, blood.
 ```
 
-### 10. Dolor Durante las Relaciones Sexuales (Dispareunia) (`public/images/sintomas/dolor-relaciones-dispareunia.webp`)
+### 8. Dolor Durante las Relaciones Sexuales (Dispareunia) (`public/images/sintomas/dolor-relaciones-dispareunia.webp`)
 ```text
 Photorealistic shot of a woman sitting thoughtfully on the edge of a bed in morning attire, looking toward a sunlit window with a contemplative and introspective expression, implying intimacy concerns, emotionally respectful and tasteful framing.
 
@@ -601,7 +359,7 @@ Suffixes: realistic clinical photography, high-fidelity textures, 8k --ar 16:9 -
 Negative Prompt: cartoon, text, watermark, signature, CGI, nudity, explicit scenes, erotica.
 ```
 
-### 11. Menstruaciones Muy Abundantes o Prolongadas (Menorragia) (`public/images/sintomas/menstruaciones-abundantes.webp`)
+### 9. Menstruaciones Muy Abundantes o Prolongadas (Menorragia) (`public/images/sintomas/menstruaciones-abundantes.webp`)
 ```text
 Photorealistic shot of a woman in an office setting taking a brief pause at her desk, holding her head gently with one hand showing signs of mild fatigue, holding a warm beverage, conveying subtle anemia-related exhaustion without exaggeration.
 
@@ -612,18 +370,7 @@ Suffixes: realistic clinical photography, high-fidelity textures, 8k --ar 16:9 -
 Negative Prompt: cartoon, text, watermark, signature, CGI, blood, sanitary pads, graphic content.
 ```
 
-### 12. Retraso, Irregularidad o Ausencia del Periodo Menstrual (`public/images/sintomas/retraso-menstrual.webp`)
-```text
-Still-life photorealistic photo on a clean marble nightstand showing a minimalist modern wellness journal open to a monthly cycle tracker with hand-marked circles, alongside a stylish smartwatch and a delicate flower.
-
-Lighting: Soft natural morning daylight, delicate cast shadows.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Marble White, Rose Gold.
-Composition: Top-angle still-life perspective across the nightstand.
-Suffixes: high-fidelity clinical photography, depth of field, 8k --ar 16:9 --v 6.0
-Negative Prompt: cartoon, text, watermark, signature, CGI, messy notes, clutter.
-```
-
-### 13. Cólicos Menstruales Severos e Incapacitantes (Dismenorrea) (`public/images/sintomas/colicos-severos.webp`)
+### 10. Cólicos Menstruales Severos e Incapacitantes (Dismenorrea) (`public/images/sintomas/colicos-severos.webp`)
 ```text
 Photorealistic photo of a woman resting on a cozy sofa wrapped in a soft knit blanket, pressing a hot water bottle wrapped in soft pink fleece against her lower abdomen with a peaceful sigh of relief.
 
@@ -632,61 +379,6 @@ Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7) fleece, Cream Wool
 Composition: Medium shot focused on the hot water bottle, hands, and resting posture.
 Suffixes: realistic clinical photography, high-fidelity textures, 8k --ar 16:9 --v 6.0
 Negative Prompt: cartoon, text, watermark, signature, CGI, nudity, agony, screaming.
-```
-
-### 14. Sensación de Bulto, Presión o Peso Vaginal (Prolapso) (`public/images/sintomas/sensacion-peso-vaginal.webp`)
-```text
-Photorealistic photo of an adult woman pausing while standing after carrying a bag of groceries, resting one hand against a kitchen counter and gently pressing her lower pelvis with a subtle look of pelvic heaviness, fully clothed.
-
-Lighting: Natural bright afternoon kitchen light.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Warm Wood, Soft White.
-Composition: Medium shot from the waist up, discreet and relatable posture.
-Suffixes: realistic clinical photography, high-fidelity textures, 8k --ar 16:9 --v 6.0
-Negative Prompt: cartoon, text, watermark, signature, CGI, nudity, exposed pelvis, graphic content.
-```
-
-### 15. Pérdida Involuntaria de Orina (Incontinencia Urinaria Femenina) (`public/images/sintomas/incontinencia-urinaria.webp`)
-```text
-Photorealistic shot of a woman in activewear pausing during an outdoor morning walk in a pleasant park, turning slightly to adjust her jacket with a momentary expression of self-conscious concern, healthy active lifestyle context.
-
-Lighting: Fresh golden morning sunlight through trees, gentle flare.
-Color Palette: Brand Deep Wine (#653A57) windbreaker, Soft Rose (#E8B7B7), Forest Green, Sand.
-Composition: Medium full-body outdoor shot, natural movement.
-Suffixes: realistic clinical photography, high-fidelity textures, 8k --ar 16:9 --v 6.0
-Negative Prompt: cartoon, text, watermark, signature, CGI, wet clothing, embarrassing fluids, nudity.
-```
-
-### 16. Molestias, Ardor o Dolor al Orinar (Disuria) (`public/images/sintomas/ardor-al-orinar.webp`)
-```text
-Photorealistic photo of a woman in the bathroom standing near the washbasin, holding a clean glass of water and gently touching her lower abdomen with an expression of mild discomfort, bathroom clean and elegant.
-
-Lighting: Bright clean morning bathroom light, soft tile reflections.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7), Ceramic White, Neutral Stone.
-Composition: Medium shot from the waist up, focused on facial expression and posture.
-Suffixes: realistic clinical photography, high-fidelity textures, 8k --ar 16:9 --v 6.0
-Negative Prompt: cartoon, text, watermark, signature, CGI, toilet bowl, urine, nudity.
-```
-
-### 17. Náuseas y Vómitos Excesivos en el Embarazo (Hiperémesis) (`public/images/sintomas/nauseas-embarazo.webp`)
-```text
-Photorealistic shot of an expectant pregnant mother in early second trimester sitting by a bright kitchen table, holding a fresh glass of water with lemon and ginger slices, gently massaging her temple with an expression of weary patience.
-
-Lighting: Crisp bright morning kitchen daylight, hopeful warmth.
-Color Palette: Brand Deep Wine (#653A57), Soft Rose (#E8B7B7) dress, Citrus Yellow, Clean White.
-Composition: Medium portrait showing subtle pregnant silhouette and thoughtful expression.
-Suffixes: realistic clinical photography, high-fidelity textures, 8k --ar 16:9 --v 6.0
-Negative Prompt: cartoon, text, watermark, signature, CGI, vomiting, sink, mess, distress.
-```
-
-### 18. Contracciones Tempranas, Dolor Abdominal o Salida de Líquido (`public/images/sintomas/contracciones-tempranas.webp`)
-```text
-Photorealistic photo of a third-trimester pregnant woman sitting comfortably on a nursery armchair, resting both hands gently on her belly while looking down attentively as if timing a Braxton-Hicks or early contraction, telephone within reach on table.
-
-Lighting: Soft gentle nursery lighting with warm afternoon sunbeam.
-Color Palette: Brand Deep Wine (#653A57) knitwear, Soft Rose (#E8B7B7), Warm Cream, Soft Wood.
-Composition: Medium three-quarter profile focused on maternal hands on abdomen and clock.
-Suffixes: realistic clinical photography, high-fidelity textures, 8k --ar 16:9 --v 6.0
-Negative Prompt: cartoon, text, watermark, signature, CGI, hospital trauma, emergency chaos, panic.
 ```
 
 ---

@@ -29,7 +29,7 @@ export default function EnfermedadesPage() {
           </p>
         </div>
 
-        {/* Grid de 30 Padecimientos con CardImageHeader */}
+        {/* Grid de 10 Padecimientos con CardImageHeader */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {diseases.map((disease) => (
             <EntityCard

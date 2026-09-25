@@ -601,7 +601,7 @@ export default function HomePage() {
               href="/enfermedades"
               className="inline-flex items-center gap-2 text-sm font-semibold text-[#653A57] hover:text-[#4C2C41] transition-colors"
             >
-              <span>Ver catálogo completo (30 patologías)</span>
+              <span>Ver catálogo completo (10 patologías)</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
@@ -638,7 +638,7 @@ export default function HomePage() {
               href="/sintomas"
               className="inline-flex items-center gap-2 text-sm font-semibold text-[#653A57] hover:text-[#4C2C41] transition-colors"
             >
-              <span>Ver todos los síntomas (18 guías)</span>
+              <span>Ver todos los síntomas (10 guías)</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

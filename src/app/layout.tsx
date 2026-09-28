@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_MX",
     url: "https://drjorgealbores.com",
-    title: "Dr. Jorge Humberto Albores Mejía | Ginecología & Mastología de Precisión",
+    title: "Dr. Jorge Humberto Albores Mejía | Ginecologo en Tuxtla Gutiérrez",
     description:
       "Atención ginecológica y mastológica de alta especialidad en Tuxtla Gutiérrez, Chiapas. Formación en FUCAM / UNAM y UAEH.",
     siteName: "Dr. Jorge Humberto Albores Mejía",

@@ -10,6 +10,7 @@ interface DoctorPortraitProps {
   className?: string;
   priority?: boolean;
   frame?: boolean;
+  objectPosition?: string;
 }
 
 /**
@@ -22,6 +23,7 @@ export default function DoctorPortrait({
   className = "",
   priority = false,
   frame = false,
+  objectPosition = "object-top",
 }: DoctorPortraitProps) {
   const [failed, setFailed] = useState(false);
 
@@ -77,7 +79,7 @@ export default function DoctorPortrait({
       src={src}
       alt={alt}
       fill
-      className={`absolute inset-0 object-cover ${frame ? "" : className}`}
+      className={`absolute inset-0 object-cover ${objectPosition} ${frame ? "" : className}`}
       sizes="(max-width: 768px) 100vw, 50vw"
       priority={priority}
       onError={() => setFailed(true)}
@@ -86,7 +88,7 @@ export default function DoctorPortrait({
 
   if (frame) {
     return (
-      <div className={`p-2 bg-white rounded-3xl border border-[#EFE8EC] shadow-xl overflow-hidden ${className}`}>
+      <div className={`relative h-full w-full p-2 bg-white rounded-3xl border border-[#EFE8EC] shadow-xl overflow-hidden ${className}`}>
         <div className="relative h-full w-full overflow-hidden rounded-2xl">{content}</div>
       </div>
     );

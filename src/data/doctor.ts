@@ -47,8 +47,8 @@ export const doctor: DoctorProfile = {
     "Sa 09:00-15:00",
   ],
   acceptingNewPatients: true,
-  photo: "/images/doctor-hero.webp",
-  aboutPhoto: "/images/doctor-about.webp",
+  photo: "/images/hero.jpeg",
+  aboutPhoto: "/images/about-me.jpeg",
   bio: "El Dr. Jorge Humberto Albores Mejía es un gineco-obstetra y mastólogo altamente especializado en la prevención, diagnóstico de precisión y abordaje quirúrgico mínimamente invasivo de patologías mamarias y ginecológicas en Tuxtla Gutiérrez, Chiapas. Con formación de alta especialidad en Cirugía Oncológica de la Mama en el reconocido Instituto de Enfermedades de la Mama (FUCAM / UNAM) y en Cirugía Endoscópica Ginecológica por la Universidad Autónoma del Estado de Hidalgo, combina rigor oncológico, técnica laparoscópica e histeroscópica de vanguardia y un trato profundamente empático, cálido y personalizado para la mujer en cada etapa de su vida.",
   philosophy: "Proporcionar a cada paciente un espacio médico de máxima confianza, precisión diagnóstica y calidez humana, donde la tecnología quirúrgica mínimamente invasiva y la alta especialidad en salud mamaria salvaguarden su bienestar integral, fertilidad y calidad de vida con absoluta transparencia ética.",
   experience: [

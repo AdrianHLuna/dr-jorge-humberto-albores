@@ -188,13 +188,13 @@ export default function HomePage() {
       <section className="py-20 bg-white border-y border-[#EFE8EC]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            {/* Marco de Imagen Asimétrico per AGENTS.md */}
+            {/* Marco de Imagen Asimétrico */}
             <div className="lg:col-span-5 flex justify-center">
-              <div className="relative w-full max-w-sm aspect-[4/5] rounded-brand-asym overflow-hidden bg-white shadow-[0_20px_45px_rgba(101,58,87,0.14)] border-4 border-white">
+              <div className="relative w-full max-w-md aspect-[4/5] sm:aspect-[3/4] lg:aspect-[4/5] rounded-brand-asym overflow-hidden bg-white shadow-[0_20px_45px_rgba(101,58,87,0.14)] border-4 border-white">
                 <DoctorPortrait
                   src={doctor.aboutPhoto ?? doctor.photo}
                   alt={`${doctor.title} ${doctor.name}`}
-                  frame
+                  objectPosition="object-top"
                 />
               </div>
             </div>

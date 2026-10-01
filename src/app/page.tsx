@@ -253,7 +253,7 @@ export default function HomePage() {
                   className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-neutral-100 text-[#2B1D26] font-semibold text-xs sm:text-sm hover:bg-neutral-200 transition-colors"
                 >
                   <Phone className="w-4 h-4" />
-                  <span>Llamar al 961 188 8525</span>
+                  <span>Llamar al 961 188 8502</span>
                 </a>
               </div>
             </div>

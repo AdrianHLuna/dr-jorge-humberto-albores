@@ -273,7 +273,7 @@ export default async function SintomaDetailPage({ params }: PageProps) {
                     className="w-full flex items-center justify-center gap-2 py-3 rounded-2xl bg-neutral-100 hover:bg-neutral-200 text-[#2B1D26] font-semibold text-xs transition-colors"
                   >
                     <Phone className="w-3.5 h-3.5" />
-                    <span>Llamar al 961 188 8525</span>
+                    <span>Llamar al 961 188 8502</span>
                   </a>
                 </div>
 

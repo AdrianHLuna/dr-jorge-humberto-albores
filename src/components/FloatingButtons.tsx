@@ -18,7 +18,7 @@ export function FloatingButtons() {
           <Phone className="w-3.5 h-3.5" />
         </span>
         <span className="hidden sm:inline text-xs font-semibold tracking-wide">
-          961 188 8525
+          961 188 8502
         </span>
       </a>
 

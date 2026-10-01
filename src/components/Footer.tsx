@@ -154,7 +154,7 @@ export function Footer() {
                 <Phone className="w-4 h-4 text-[#E8B7B7]" />
                 <div>
                   <span className="text-[10px] text-neutral-400 block">Conmutador Citas</span>
-                  <span>961 188 8525 / 961 188 8502</span>
+                  <span>961 188 8502 / 961 188 8525</span>
                 </div>
               </a>
               <a

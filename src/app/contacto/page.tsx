@@ -120,7 +120,7 @@ export default function ContactoPage() {
                   href={`tel:${doctor.phone}`}
                   className="font-bold text-[#2B1D26] hover:text-[#653A57] text-sm sm:text-base mt-0.5 block"
                 >
-                  961 188 8525 / 961 188 8502
+                  961 188 8502 / 961 188 8525
                 </a>
               </div>
 

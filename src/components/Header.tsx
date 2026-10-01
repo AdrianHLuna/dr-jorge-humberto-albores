@@ -123,7 +123,7 @@ export function Header() {
               title="Llamar al consultorio"
             >
               <Phone className="w-3.5 h-3.5" />
-              <span>961 188 8525</span>
+              <span>961 188 8502</span>
             </a>
             <a
               href={`https://wa.me/${doctor.whatsapp.replace("+", "")}?text=Hola%20Dr.%20Jorge%20Albores,%20deseo%20agendar%20una%20consulta%20m%C3%A9dica.`}
@@ -205,7 +205,7 @@ export function Header() {
               className="flex items-center justify-center gap-2 py-3 rounded-xl text-sm font-semibold text-[#653A57] bg-[#F7E8E8] border border-[#E8B7B7]/40"
             >
               <Phone className="w-4 h-4" />
-              <span>Llamar: 961 188 8525</span>
+              <span>Llamar: 961 188 8502</span>
             </a>
             <a
               href={`tel:${doctor.emergencyPhone}`}
